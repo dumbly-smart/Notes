@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "binary-analysis/01 - Learning Blueprint.md",
+                "file": "binary-analysis/02 - Source Code to Running Program.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01 - Learning Blueprint"
+              "title": "02 - Source Code to Running Program"
             }
           }
         ]
@@ -170,12 +170,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "187d152c63fc1e8c",
+  "active": "0ff80ac0704ef7d6",
   "lastOpenFiles": [
+    "binary-analysis/01 - Learning Blueprint.md",
     "hello.md",
     "/hello.md",
     "Untitled.md",
-    "binary-analysis/01 - Learning Blueprint.md",
     "binary-analysis/02 - Source Code to Running Program.md",
     "binary-analysis/00 - Binary Analysis Hub.md",
     "Network-Scanning.md"
