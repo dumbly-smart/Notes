@@ -172,6 +172,8 @@
   },
   "active": "0ff80ac0704ef7d6",
   "lastOpenFiles": [
+    "binary-analysis/crash-course/08 - Core Theory Handbook.md",
+    "/binary-analysis/crash-course/08 - Core Theory Handbook.md",
     "binary-analysis/crash-course/07 - Mock CTF and Final Assessment.md",
     "binary-analysis/crash-course/06 - Advanced Pwn and Automation.md",
     "binary-analysis/crash-course/05 - Format Strings and Heap Foundations.md",
@@ -198,8 +200,6 @@
     "binary-analysis/05 - x86-64 Assembly for Binary Analysis.md",
     "binary-analysis/04 - Binary Loading and Linux Analysis.md",
     "/binary-analysis/06 - Static Disassembly Strategies.md",
-    "/binary-analysis/05 - x86-64 Assembly for Binary Analysis.md",
-    "/binary-analysis/04 - Binary Loading and Linux Analysis.md",
-    "/binary-analysis/03 - Executable Formats - ELF and PE.md"
+    "/binary-analysis/05 - x86-64 Assembly for Binary Analysis.md"
   ]
 }
