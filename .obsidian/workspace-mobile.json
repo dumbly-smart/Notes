@@ -112,7 +112,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "binary-analysis/02 - Source Code to Running Program.md",
+            "file": "binary-analysis/01 - Learning Blueprint.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -159,47 +159,36 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "0ff80ac0704ef7d6",
   "lastOpenFiles": [
-    "binary-analysis/crash-course/08 - Core Theory Handbook.md",
-    "/binary-analysis/crash-course/08 - Core Theory Handbook.md",
-    "binary-analysis/crash-course/07 - Mock CTF and Final Assessment.md",
-    "binary-analysis/crash-course/06 - Advanced Pwn and Automation.md",
-    "binary-analysis/crash-course/05 - Format Strings and Heap Foundations.md",
-    "binary-analysis/crash-course/04 - ROP, Leaks, and Mitigations.md",
-    "binary-analysis/crash-course/03 - Stack Overflows and Shellcode.md",
-    "binary-analysis/crash-course/02 - Reverse Engineering Workflow.md",
-    "binary-analysis/crash-course/01 - Foundations and Assembly.md",
-    "binary-analysis/crash-course/00 - One-Week RE and Pwn Crash Course.md",
-    "/binary-analysis/crash-course/07 - Mock CTF and Final Assessment.md",
-    "/binary-analysis/crash-course/06 - Advanced Pwn and Automation.md",
-    "/binary-analysis/crash-course/05 - Format Strings and Heap Foundations.md",
-    "/binary-analysis/crash-course/04 - ROP, Leaks, and Mitigations.md",
-    "/binary-analysis/crash-course/03 - Stack Overflows and Shellcode.md",
-    "/binary-analysis/crash-course/02 - Reverse Engineering Workflow.md",
-    "/binary-analysis/crash-course/01 - Foundations and Assembly.md",
-    "/binary-analysis/crash-course/00 - One-Week RE and Pwn Crash Course.md",
-    "/binary-analysis/00 - Binary Analysis Hub.md",
-    "binary-analysis/crash-course",
-    "/binary-analysis/crash-course",
-    "/binary-analysis",
-    "binary-analysis/03 - Executable Formats - ELF and PE.md",
-    "binary-analysis/02 - Source Code to Running Program.md",
     "binary-analysis/06 - Static Disassembly Strategies.md",
     "binary-analysis/05 - x86-64 Assembly for Binary Analysis.md",
     "binary-analysis/04 - Binary Loading and Linux Analysis.md",
+    "binary-analysis/03 - Executable Formats - ELF and PE.md",
     "/binary-analysis/06 - Static Disassembly Strategies.md",
-    "/binary-analysis/05 - x86-64 Assembly for Binary Analysis.md"
+    "/binary-analysis/05 - x86-64 Assembly for Binary Analysis.md",
+    "/binary-analysis/04 - Binary Loading and Linux Analysis.md",
+    "/binary-analysis/03 - Executable Formats - ELF and PE.md",
+    "/binary-analysis/02 - Source Code to Running Program.md",
+    "/binary-analysis/00 - Binary Analysis Hub.md",
+    "/binary-analysis",
+    "binary-analysis/01 - Learning Blueprint.md",
+    "hello.md",
+    "/hello.md",
+    "Untitled.md",
+    "binary-analysis/02 - Source Code to Running Program.md",
+    "binary-analysis/00 - Binary Analysis Hub.md",
+    "Network-Scanning.md"
   ]
 }

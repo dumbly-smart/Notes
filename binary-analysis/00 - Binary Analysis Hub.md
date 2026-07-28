@@ -1,4 +1,4 @@
-# Reverse Engineering & Binary Exploitation — Study Hub
+# Practical Binary Analysis — Study Hub
 
 > [!info] Source
 > Dennis Andriesse, *Practical Binary Analysis: Build Your Own Linux Tools for Binary Instrumentation, Analysis, and Disassembly* (460 pages).
@@ -7,11 +7,11 @@
 
 ## Purpose
 
-This folder is the working hub for a mastery-oriented CTF program in reverse engineering and binary exploitation. The book notes provide supporting depth; the canonical route is the intensive one-week crash course below.
+This vault folder records an interactive, mastery-oriented study of the book. The objective is not merely to finish every chapter, but to understand the concepts well enough to explain them, recognize them in real binaries, predict their effects, and use them independently.
 
 ## Navigation
 
-- [[crash-course/00 - One-Week RE and Pwn Crash Course|One-Week RE & Pwn Crash Course]]
+- [[01 - Learning Blueprint]]
 - [[02 - Source Code to Running Program]]
 - [[03 - Executable Formats - ELF and PE]]
 - [[04 - Binary Loading and Linux Analysis]]
@@ -37,8 +37,7 @@ This folder is the working hub for a mastery-oriented CTF program in reverse eng
 
 ## Current position
 
-- **Curriculum:** [[crash-course/00 - One-Week RE and Pwn Crash Course|One-Week RE & Pwn Crash Course]]
-- **Stage:** Day 1 — foundations and assembly
+- **Stage:** Binary foundations and executable formats
 - **Prepared material:** Topics 1–12
 - **Current interactive position:** Quick check at the bottom of [[02 - Source Code to Running Program]]
 
