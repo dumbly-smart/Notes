@@ -112,7 +112,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "binary-analysis/01 - Learning Blueprint.md",
+            "file": "binary-analysis/03 - Executable Formats - ELF and PE.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
