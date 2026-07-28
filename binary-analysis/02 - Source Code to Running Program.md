@@ -413,7 +413,7 @@ File offsets and virtual addresses describe different coordinate systems:
 
 Understanding this distinction is essential for patching, debugging, code injection, and interpreting ELF metadata.
 
-### Check
+### Check,
 
 1. Why does execution usually begin at `_start` rather than `main`?
 2. Why can a memory segment be larger than its corresponding range in the file?
