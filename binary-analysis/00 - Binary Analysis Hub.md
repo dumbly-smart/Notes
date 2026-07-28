@@ -15,6 +15,8 @@ This vault folder records an interactive, mastery-oriented study of the book. Th
 - [[02 - Source Code to Running Program]]
 - [[03 - Executable Formats - ELF and PE]]
 - [[04 - Binary Loading and Linux Analysis]]
+- [[05 - x86-64 Assembly for Binary Analysis]]
+- [[06 - Static Disassembly Strategies]]
 
 ## Topic map
 
@@ -30,11 +32,13 @@ This vault folder records an interactive, mastery-oriented study of the book. Th
 | 8 | PE format and comparison with ELF | [[03 - Executable Formats - ELF and PE#Topic 8 — The PE format and comparison with ELF]] |
 | 9 | Designing a binary loader with libbfd | [[04 - Binary Loading and Linux Analysis#Topic 9 — Designing a binary loader with libbfd]] |
 | 10 | Basic Linux binary-analysis workflow | [[04 - Binary Loading and Linux Analysis#Topic 10 — Basic Linux binary-analysis workflow]] |
+| 11 | x86-64 assembly for binary analysis | [[05 - x86-64 Assembly for Binary Analysis]] |
+| 12 | Static disassembly strategies | [[06 - Static Disassembly Strategies]] |
 
 ## Current position
 
 - **Stage:** Binary foundations and executable formats
-- **Prepared material:** Topics 1–10
+- **Prepared material:** Topics 1–12
 - **Current interactive position:** Quick check at the bottom of [[02 - Source Code to Running Program]]
 
 ## Mastery standard
@@ -49,6 +53,21 @@ A topic counts as understood when it can be:
 6. discussed along with its limitations and common failure cases.
 
 Merely reading a chapter or reproducing a command is not enough.
+
+## Curriculum quality standard
+
+Future material should be advanced but teachable. Major-topic notes should include:
+
+- a precise mental model before tool usage;
+- connections between source, assembly, executable metadata, and runtime behavior;
+- worked examples with explicit reasoning;
+- practical experiments and progressively harder exercises;
+- compiler, ABI, optimization, and security implications;
+- common mistakes and misleading interpretations;
+- confidence boundaries separating observation from inference;
+- a mastery check that requires explanation and application.
+
+Commands should answer analytical questions rather than appear as isolated reference lists.
 
 ## Folder convention
 
