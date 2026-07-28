@@ -214,3 +214,206 @@ If the compiler removes `x` and places the value `7` directly into a register:
 2. Was the calculation `5 + 2` performed while compiling or while running?
 
 Answer in your own words. The reasoning matters more than exact terminology.
+
+---
+
+## Topic 1 — Symbols and stripped binaries
+
+### What is a symbol?
+
+A symbol is a human-meaningful name associated with an address or program entity. Examples include:
+
+- function names such as `main` or `calculate_total`;
+- global variables;
+- imported functions such as `printf`;
+- labels produced during compilation.
+
+At source level, names help humans describe the program. Machine instructions normally operate on addresses, registers, and offsets. Symbol tables preserve a mapping between some of those low-level locations and meaningful names.
+
+Two important ELF symbol tables are:
+
+- `.symtab` — the full symbol table commonly used during linking and debugging;
+- `.dynsym` — the smaller dynamic symbol table containing symbols needed for dynamic linking.
+
+`nm` can display symbols:
+
+```bash
+nm ./example
+nm -D ./example
+```
+
+The second command focuses on dynamic symbols.
+
+### Defined and undefined symbols
+
+An object file can contain:
+
+- **defined symbols** — implemented inside the object;
+- **undefined symbols** — referenced here but supplied elsewhere.
+
+For example, `main` may be defined in `example.o`, while `printf` is undefined there because its implementation comes from libc. “Undefined” does not necessarily mean broken; before final linking, it often means “the linker must locate this.”
+
+### What stripping does
+
+The `strip` utility removes symbol and debugging information that is not required for normal execution:
+
+```bash
+cp example example.stripped
+strip example.stripped
+```
+
+The stripped file is usually smaller and harder to analyze because descriptive function and variable names disappear. However:
+
+- executable machine code remains;
+- runtime-required dynamic symbols generally remain;
+- program behavior should remain unchanged;
+- imports, strings, control flow, and recognizable patterns still reveal information.
+
+> [!important]
+> Stripping removes useful labels, not the program's logic. A stripped binary is harder to understand, not magically unreadable.
+
+### Mental model
+
+```text
+Source name: calculate_total
+        ↓ compiler/linker records a symbol
+Symbol: calculate_total → address 0x401160
+        ↓ strip removes optional name
+Analyst sees: subroutine at 0x401160
+```
+
+### Check
+
+1. Why can a stripped program still run after most symbols have been removed?
+2. Why might `printf` remain discoverable even when private function names disappear?
+
+---
+
+## Topic 2 — Disassembling object files and executables
+
+### Disassembly
+
+Disassembly translates machine-code bytes into readable assembly instructions:
+
+```text
+Machine bytes             Assembly
+55                        push rbp
+48 89 e5                  mov rbp, rsp
+b8 05 00 00 00            mov eax, 5
+```
+
+This is not the reverse of compilation in a perfect sense. Compilation can discard:
+
+- comments;
+- source formatting;
+- local variable names;
+- type information;
+- high-level control structures;
+- code removed or transformed through optimization.
+
+A disassembler reconstructs instructions, not the original source code.
+
+### Object file versus executable
+
+An object file is relocatable. Its code may use placeholder offsets because final addresses are not known. It also carries relocation entries telling the linker what to repair.
+
+An executable has undergone linking. Its sections, references, imports, and entry point have been arranged for loading, although position-independent executables and shared libraries still involve runtime relocation.
+
+Inspect both with:
+
+```bash
+objdump -d example.o
+objdump -d example
+```
+
+Useful variants include:
+
+```bash
+objdump -d -M intel example
+objdump -S -M intel example
+```
+
+`-M intel` selects Intel syntax. `-S` can intermix source with assembly when debugging information and source are available.
+
+### Why code discovery is difficult
+
+Before decoding instructions, a disassembler must determine which bytes are code. Binary files contain both code and data, and x86 has variable-length instructions. Starting at the wrong byte can produce a different sequence of apparently valid instructions.
+
+This leads to two broad approaches introduced more deeply later:
+
+- **linear disassembly** — decode successive bytes;
+- **recursive disassembly** — follow reachable control-flow targets.
+
+Each can miss or misclassify bytes.
+
+### Check
+
+If a disassembler produces valid-looking instructions, does that prove the bytes were intended as executable code? Explain why.
+
+---
+
+## Topic 3 — Loading and executing a binary
+
+### The kernel does not copy the whole file blindly
+
+When an ELF program is executed, the kernel examines its program headers. Loadable segments describe:
+
+- which file bytes should be mapped;
+- where they belong in virtual memory;
+- their memory size;
+- their permissions: read, write, and execute;
+- required alignment.
+
+The loader maps code and data into a new process address space. A region such as `.bss` occupies memory even though its zero-initialized bytes do not all need to be stored in the file.
+
+### Entry point versus `main`
+
+The ELF header contains an entry-point address. Execution begins there, usually in a runtime routine named `_start`, not directly in `main`.
+
+A simplified route is:
+
+```text
+Kernel loads ELF
+      ↓
+Dynamic linker resolves runtime dependencies
+      ↓
+Entry point / _start
+      ↓
+C runtime initialization
+      ↓
+main(argc, argv, envp)
+      ↓
+exit and cleanup
+```
+
+### Static and dynamic linking
+
+With **static linking**, library code needed by the program is copied into the executable. The executable is larger and depends less on external libraries at runtime.
+
+With **dynamic linking**, the executable records dependencies on shared libraries. A runtime dynamic linker maps those libraries and resolves required symbols.
+
+Inspect dependencies with:
+
+```bash
+ldd ./example
+readelf -l ./example
+readelf -h ./example
+```
+
+> [!warning]
+> Avoid using `ldd` on an untrusted executable. Depending on the system and file, examining it this way can be unsafe. Prefer safer static inspection methods such as `readelf -d` when trust is uncertain.
+
+### Process memory is not identical to the file
+
+File offsets and virtual addresses describe different coordinate systems:
+
+- a **file offset** identifies a byte inside the ELF file on disk;
+- a **virtual address** identifies a location in the running process;
+- a segment mapping explains how a file range becomes a memory range.
+
+Understanding this distinction is essential for patching, debugging, code injection, and interpreting ELF metadata.
+
+### Check
+
+1. Why does execution usually begin at `_start` rather than `main`?
+2. Why can a memory segment be larger than its corresponding range in the file?
