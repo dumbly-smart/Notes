@@ -11,6 +11,10 @@ Back: [[00 - One-Week RE and Pwn Crash Course]]
 
 Read ordinary x86-64 functions, explain how an ELF becomes a process, and inspect execution confidently in GDB.
 
+## Lesson
+
+Read [[08 - Core Theory Handbook#1. From C to machine code]], [[08 - Core Theory Handbook#2. x86-64 assembly and the ABI]], and [[08 - Core Theory Handbook#3. ELF, dynamic linking, and mitigations]] before beginning the labs.
+
 ## Schedule
 
 ### Block 1 — C and memory (90 min)
@@ -82,4 +86,3 @@ Without notes, explain an unseen function’s arguments, locals, branches, and r
 **Result:** [ ] Pass [ ] Repair needed
 
 Next: [[02 - Reverse Engineering Workflow]]
-

@@ -11,6 +11,10 @@ Back: [[00 - One-Week RE and Pwn Crash Course]]
 
 Handle an unfamiliar constraint, automate the boring parts, and turn a fragile proof of concept into a dependable exploit.
 
+## Lesson
+
+Read [[08 - Core Theory Handbook#9. Advanced constraints]] and [[08 - Core Theory Handbook#10. Reliability and debugging]].
+
 ## Block 1 — Strategy under constraints (90 min)
 
 - [ ] Inventory available read, write, leak, allocation, free, and control primitives.
@@ -88,4 +92,3 @@ Present an exploit/solver where every stage has an assertion, every runtime addr
 **Result:** [ ] Pass [ ] Repair needed
 
 Next: [[07 - Mock CTF and Final Assessment]]
-

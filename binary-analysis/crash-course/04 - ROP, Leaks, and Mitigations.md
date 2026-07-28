@@ -11,6 +11,10 @@ Back: [[00 - One-Week RE and Pwn Crash Course]]
 
 Build and debug a two-stage ROP/ret2libc exploit that defeats NX and randomized library addresses.
 
+## Lesson
+
+Read [[08 - Core Theory Handbook#6. ROP and ret2libc]] and revisit [[08 - Core Theory Handbook#3. ELF, dynamic linking, and mitigations]].
+
 ## Schedule
 
 ### Block 1 — ROP mechanics (2 hr)
@@ -100,4 +104,3 @@ Exploit an unseen NX+ASLR challenge using a leak and ROP/ret2libc. The exploit m
 **Result:** [ ] Pass [ ] Repair needed
 
 Next: [[05 - Format Strings and Heap Foundations]]
-

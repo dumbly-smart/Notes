@@ -11,6 +11,10 @@ Back: [[00 - One-Week RE and Pwn Crash Course]]
 
 Demonstrate a complete independent workflow under time pressure and leave with an evidence-based next practice plan.
 
+## Preparation
+
+Review [[08 - Core Theory Handbook]] using only the headings and examples needed to repair weak areas. The mock CTF itself remains a closed-walkthrough assessment.
+
 ## Rules
 
 - 6-hour timed mini-CTF.
@@ -139,4 +143,3 @@ Recommended directions:
 - [ ] Four-week follow-up plan is written.
 
 **Course result:** [ ] Passed [ ] Repeat selected days
-

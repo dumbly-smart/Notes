@@ -11,6 +11,10 @@ Back: [[00 - One-Week RE and Pwn Crash Course]]
 
 Construct format-string read/write primitives and reason accurately about basic glibc heap state.
 
+## Lesson
+
+Read [[08 - Core Theory Handbook#7. Format-string vulnerabilities]] and [[08 - Core Theory Handbook#8. Heap foundations]] before starting the labs.
+
 ## Block 1 — Format-string mechanics (90 min)
 
 - [ ] Explain why attacker-controlled format strings expose variadic arguments.
@@ -79,4 +83,3 @@ Demonstrate a controlled format-string leak and write without payload guessing. 
 **Result:** [ ] Pass [ ] Repair needed
 
 Next: [[06 - Advanced Pwn and Automation]]
-

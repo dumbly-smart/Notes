@@ -11,6 +11,10 @@ Back: [[00 - One-Week RE and Pwn Crash Course]]
 
 Prove a stack corruption bug, control execution precisely, and package the result as a reproducible pwntools exploit.
 
+## Lesson
+
+Read [[08 - Core Theory Handbook#5. Stack corruption and shellcode]]. Review the ABI chapter before constructing function arguments.
+
 ## Schedule
 
 ### Block 1 — Root cause to RIP control (2 hr)
@@ -93,4 +97,3 @@ On an unseen non-PIE beginner target, find the overflow offset without guessing,
 **Result:** [ ] Pass [ ] Repair needed
 
 Next: [[04 - ROP, Leaks, and Mitigations]]
-

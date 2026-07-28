@@ -20,6 +20,8 @@ This is a seven-day, high-intensity Linux x86-64 CTF sprint. It will not make an
 
 ## Course navigation
 
+Read [[08 - Core Theory Handbook]] alongside the daily notes. It contains the explanations, annotated examples, command references, exploit patterns, and debugging models used by the exercises.
+
 | Day | Focus | Required result |
 |---:|---|---|
 | 1 | [[01 - Foundations and Assembly]] | Read functions and navigate a binary in GDB |
@@ -29,6 +31,7 @@ This is a seven-day, high-intensity Linux x86-64 CTF sprint. It will not make an
 | 5 | [[05 - Format Strings and Heap Foundations]] | Build read/write primitives and explain heap state |
 | 6 | [[06 - Advanced Pwn and Automation]] | Solve a constrained target with a reliable script |
 | 7 | [[07 - Mock CTF and Final Assessment]] | Complete a timed mixed mini-CTF |
+| Reference | [[08 - Core Theory Handbook]] | Complete teaching material for Days 1–7 |
 
 ## Daily operating rhythm
 
@@ -140,4 +143,3 @@ The course is complete only when:
 - [ ] the final mock CTF is attempted without walkthroughs;
 - [ ] every solved challenge has a concise root-cause explanation;
 - [ ] a post-course weakness list and next practice plan exist.
-

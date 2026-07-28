@@ -11,6 +11,10 @@ Back: [[00 - One-Week RE and Pwn Crash Course]]
 
 Turn a stripped binary into a defensible program model and solver using static and dynamic evidence.
 
+## Lesson
+
+Read [[08 - Core Theory Handbook#4. Static and dynamic reversing]]. Keep it open while performing the first guided analysis.
+
 ## Schedule
 
 ### Block 1 — Fast triage (60 min)
@@ -70,4 +74,3 @@ Given an unseen stripped binary, recover its decisive validation logic and produ
 **Result:** [ ] Pass [ ] Repair needed
 
 Next: [[03 - Stack Overflows and Shellcode]]
-
