@@ -7,11 +7,11 @@
 
 ## Purpose
 
-This folder is the working hub for a mastery-oriented CTF program in reverse engineering and binary exploitation. The book remains an important foundation, while the canonical route is the complete curriculum below.
+This folder is the working hub for a mastery-oriented CTF program in reverse engineering and binary exploitation. The book notes provide supporting depth; the canonical route is the intensive one-week crash course below.
 
 ## Navigation
 
-- [[01 - Learning Blueprint|Complete RE & Binary Exploitation Curriculum]]
+- [[crash-course/00 - One-Week RE and Pwn Crash Course|One-Week RE & Pwn Crash Course]]
 - [[02 - Source Code to Running Program]]
 - [[03 - Executable Formats - ELF and PE]]
 - [[04 - Binary Loading and Linux Analysis]]
@@ -37,8 +37,8 @@ This folder is the working hub for a mastery-oriented CTF program in reverse eng
 
 ## Current position
 
-- **Curriculum:** [[01 - Learning Blueprint|Complete RE & Binary Exploitation Curriculum]]
-- **Stage:** Phase 1 — foundations
+- **Curriculum:** [[crash-course/00 - One-Week RE and Pwn Crash Course|One-Week RE & Pwn Crash Course]]
+- **Stage:** Day 1 — foundations and assembly
 - **Prepared material:** Topics 1–12
 - **Current interactive position:** Quick check at the bottom of [[02 - Source Code to Running Program]]
 
