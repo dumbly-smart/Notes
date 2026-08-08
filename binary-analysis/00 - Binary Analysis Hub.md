@@ -18,6 +18,17 @@ This folder contains the active CTF learning route plus supporting notes from *P
 - [[04 - Binary Loading and Linux Analysis]]
 - [[05 - x86-64 Assembly for Binary Analysis]]
 - [[06 - Static Disassembly Strategies]]
+- [[07 - Reverse Engineering Field Manual]] — the complete, repeatable workflow for understanding an unfamiliar binary
+- [[08 - Binary Vulnerability Analysis Field Manual]] — the complete workflow for finding, validating, and reporting vulnerabilities
+
+## Choose your field manual
+
+| Goal | Start here | Finished when |
+|---|---|---|
+| Understand what a binary does | [[07 - Reverse Engineering Field Manual]] | Inputs, outputs, algorithms, control/data flow, evidence, and unknowns are documented |
+| Find and assess vulnerabilities | [[08 - Binary Vulnerability Analysis Field Manual]] | Root cause, attacker control, primitive, real mitigations, impact, fix, and regression tests are documented |
+
+The field manuals are self-contained operational routes. The numbered foundation notes provide slower, concept-level explanations when a step needs more depth; the crash course and Nightmare material provide practice targets.
 
 ## Topic map
 
