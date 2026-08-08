@@ -11,6 +11,7 @@ This folder contains the active CTF learning route plus supporting notes from *P
 
 ## Navigation
 
+- [[nightmare-complete/Nightmare Course - Complete Solutions|Nightmare — Complete CTF solutions]]
 - [[01 - One Week RE and Pwn Crash Course]]
 - [[02 - Source Code to Running Program]]
 - [[03 - Executable Formats - ELF and PE]]
