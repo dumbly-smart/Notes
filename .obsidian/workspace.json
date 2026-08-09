@@ -11,10 +11,14 @@
             "id": "8dc3bc0ab0d66975",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "binary-analysis/practical-binary-analysis/Chapter 10 - Dynamic Taint Analysis Principles.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Chapter 10 - Dynamic Taint Analysis Principles"
             }
           }
         ]
@@ -185,6 +189,17 @@
   },
   "active": "8dc3bc0ab0d66975",
   "lastOpenFiles": [
+    "binary-analysis/practical-binary-analysis/Chapter 09 - Binary Instrumentation.md",
+    "binary-analysis/practical-binary-analysis/Chapter 08 - Customizing Disassembly with Capstone.md",
+    "binary-analysis/practical-binary-analysis/Build Guide - Dynamic Disassembler.md",
+    "binary-analysis/practical-binary-analysis/Chapter 06 - Disassembly and Analysis Fundamentals.md",
+    "binary-analysis/practical-binary-analysis/Chapter 05 - Basic Binary Analysis in Linux.md",
+    "binary-analysis/practical-binary-analysis/Chapter 04 - Building a Binary Loader with libbfd.md",
+    "binary-analysis/practical-binary-analysis/Chapter 03 - The PE Format.md",
+    "binary-analysis/practical-binary-analysis/Chapter 02 - The ELF Format.md",
+    "binary-analysis/practical-binary-analysis/Build Guide - Static Disassembler.md",
+    "binary-analysis/practical-binary-analysis/Chapter 01 - Anatomy of a Binary.md",
+    "binary-analysis/practical-binary-analysis/Appendices - x86, ELF Injection, Tools, and Reading.md",
     "binary-analysis/06 - Static Disassembly Strategies.md",
     "binary-analysis/08 - Binary Vulnerability Analysis Field Manual.md",
     "binary-analysis/07 - Reverse Engineering Field Manual.md",
