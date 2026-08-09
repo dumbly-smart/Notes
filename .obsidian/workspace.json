@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "binary-analysis/practical-binary-analysis/Chapter 10 - Dynamic Taint Analysis Principles.md",
+                "file": "binary-analysis/reversing-secrets-of-reverse-engineering/Chapter 06 - Deciphering File Formats.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 10 - Dynamic Taint Analysis Principles"
+              "title": "Chapter 06 - Deciphering File Formats"
             }
           }
         ]
@@ -187,30 +187,33 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8dc3bc0ab0d66975",
+  "active": "ff0039c63bd6580e",
   "lastOpenFiles": [
+    "binary-analysis/reversing-secrets-of-reverse-engineering/Chapter 07 - Auditing Program Binaries.md",
+    "binary-analysis/reversing-secrets-of-reverse-engineering/Chapter 01 - Foundations.md",
+    "binary-analysis/reversing-secrets-of-reverse-engineering/Chapter 06 - Deciphering File Formats.md",
+    "binary-analysis/reversing-secrets-of-reverse-engineering/Chapter 08 - Reversing Malware.md",
+    "binary-analysis/reversing-secrets-of-reverse-engineering/Mentor Code Labs I - Foundations Through Tools.md",
+    "binary-analysis/reversing-secrets-of-reverse-engineering/Chapter 11 - Breaking Protections.md",
+    "binary-analysis/reversing-secrets-of-reverse-engineering/Chapter 04 - Reversing Tools.md",
+    "binary-analysis/reversing-secrets-of-reverse-engineering/Chapter 03 - Windows Fundamentals.md",
+    "binary-analysis/reversing-secrets-of-reverse-engineering/Appendices - Code Structures, Arithmetic, and Program Data.md",
+    "binary-analysis/practical-binary-analysis/Appendices - x86, ELF Injection, Tools, and Reading.md",
+    "binary-analysis/reversing-secrets-curriculum/Module 02 - Low-Level Software and Compiler Patterns.md",
+    "binary-analysis/reversing-secrets-curriculum/Module 09 - Protection Technology and Threat Modeling.md",
+    "binary-analysis/reversing-secrets-curriculum/Module 08 - Malware Reversing in an Isolated Lab.md",
+    "binary-analysis/reversing-secrets-curriculum/Module 05 - Undocumented APIs and Data Structures.md",
+    "binary-analysis/practical-binary-analysis/Chapter 01 - Anatomy of a Binary.md",
+    "binary-analysis/practical-binary-analysis/Build Guide - Static Disassembler.md",
+    "binary-analysis/practical-binary-analysis/Book Synthesis - Maps, Definitions, Comparisons, and Mastery.md",
+    "binary-analysis/practical-binary-analysis/Build Guide - Dynamic Disassembler.md",
+    "binary-analysis/practical-binary-analysis/Authorized Binary Exploitation Guide.md",
+    "binary-analysis/practical-binary-analysis/Chapter 10 - Dynamic Taint Analysis Principles.md",
     "binary-analysis/practical-binary-analysis/Chapter 09 - Binary Instrumentation.md",
     "binary-analysis/practical-binary-analysis/Chapter 08 - Customizing Disassembly with Capstone.md",
-    "binary-analysis/practical-binary-analysis/Build Guide - Dynamic Disassembler.md",
     "binary-analysis/practical-binary-analysis/Chapter 06 - Disassembly and Analysis Fundamentals.md",
     "binary-analysis/practical-binary-analysis/Chapter 05 - Basic Binary Analysis in Linux.md",
     "binary-analysis/practical-binary-analysis/Chapter 04 - Building a Binary Loader with libbfd.md",
-    "binary-analysis/practical-binary-analysis/Chapter 03 - The PE Format.md",
-    "binary-analysis/practical-binary-analysis/Chapter 02 - The ELF Format.md",
-    "binary-analysis/practical-binary-analysis/Build Guide - Static Disassembler.md",
-    "binary-analysis/practical-binary-analysis/Chapter 01 - Anatomy of a Binary.md",
-    "binary-analysis/practical-binary-analysis/Appendices - x86, ELF Injection, Tools, and Reading.md",
-    "binary-analysis/06 - Static Disassembly Strategies.md",
-    "binary-analysis/08 - Binary Vulnerability Analysis Field Manual.md",
-    "binary-analysis/07 - Reverse Engineering Field Manual.md",
-    "binary-analysis/00 - Binary Analysis Hub.md",
-    "binary-analysis/crash-course/Day 1 - C, Assembly, ELF and GDB.md",
-    "binary-analysis/nightmare-complete/30-unlink/zctf16_note2.md",
-    "binary-analysis/nightmare-complete/30-unlink/unlink_explanation.md",
-    "binary-analysis/nightmare-complete/30-unlink/hitcon14_stkof.md",
-    "binary-analysis/nightmare-complete/30-unlink/30-unlink - Module Index.md",
-    "binary-analysis/nightmare-complete/00-intro/Intro.md",
-    "binary-analysis/nightmare-complete/00-intro/00-intro - Module Index.md",
-    "Untitled.md"
+    "binary-analysis/practical-binary-analysis/Chapter 03 - The PE Format.md"
   ]
 }
