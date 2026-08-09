@@ -5,7 +5,7 @@ day: 7
 
 # Day 7 — Mock CTF and Final Assessment
 
-Back: [[01 - One Week RE and Pwn Crash Course]]
+Back: [[practical-binary-analysis/Practical Binary Analysis - Master Index|Practical Binary Analysis — Complete Companion]]
 
 ## Six-hour mock CTF
 

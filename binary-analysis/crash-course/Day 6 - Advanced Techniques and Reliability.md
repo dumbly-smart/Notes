@@ -5,7 +5,7 @@ day: 6
 
 # Day 6 — Advanced Techniques and Reliability
 
-Back: [[01 - One Week RE and Pwn Crash Course]]
+Back: [[practical-binary-analysis/Practical Binary Analysis - Master Index|Practical Binary Analysis — Complete Companion]]
 
 ## Strategy under constraints
 

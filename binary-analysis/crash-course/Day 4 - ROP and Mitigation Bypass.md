@@ -5,7 +5,7 @@ day: 4
 
 # Day 4 — ROP and Mitigation Bypass
 
-Back: [[01 - One Week RE and Pwn Crash Course]]
+Back: [[practical-binary-analysis/Practical Binary Analysis - Master Index|Practical Binary Analysis — Complete Companion]]
 
 ## ROP mental model
 

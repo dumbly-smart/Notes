@@ -5,7 +5,7 @@ day: 2
 
 # Day 2 — Reverse Engineering
 
-Back: [[01 - One Week RE and Pwn Crash Course]]
+Back: [[practical-binary-analysis/Practical Binary Analysis - Master Index|Practical Binary Analysis — Complete Companion]]
 
 ## Static workflow
 

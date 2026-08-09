@@ -5,7 +5,7 @@ day: 1
 
 # Day 1 — C, x86-64 Assembly, ELF, and GDB
 
-Back: [[01 - One Week RE and Pwn Crash Course]]
+Back: [[practical-binary-analysis/Practical Binary Analysis - Master Index|Practical Binary Analysis — Complete Companion]]
 
 ## Mental model: source to process
 
