@@ -154,3 +154,13 @@ memcpy(dst, src, n);
 - [ ] Explain explicit and implicit flows.
 - [ ] Distinguish overtaint, undertaint, and path undercoverage.
 - [ ] Model the Heartbleed invariant and detector tradeoffs.
+
+## Extended chapter synthesis
+
+**Key idea:** DTA proves policy-defined influence for executed paths—not global safety, intent, or exploitability.
+
+**Key process:** define precise sources/colors → propagate through instruction semantics/shadow state → check precise sinks → explain overtaint, undertaint, implicit-flow, and coverage limits.
+
+**You should be able to solve:** byte/word/color design, zero-idiom taint clearing, control-dependence policy, secret exfiltration and untrusted-control detectors, and tainted-but-validated values.
+
+Full 48-question set with worked solutions: [[Workbooks/Chapter 10 - Practice and Complete Solutions]].

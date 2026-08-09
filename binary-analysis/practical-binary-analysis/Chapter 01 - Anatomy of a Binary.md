@@ -23,6 +23,20 @@ C source
                     process
 ```
 
+### Chapter roadmap
+
+```text
+Anatomy of a Binary
+├── 1.1 Translation pipeline
+│   ├── preprocessing: construct the translation unit
+│   ├── compilation: source semantics → target assembly
+│   ├── assembly: instructions → relocatable bytes
+│   └── linking: resolve names, relocate, lay out an image
+├── 1.2 Symbols and stripping
+├── 1.3 Object/executable disassembly
+└── 1.4 File image → process → runtime startup → main
+```
+
 ## 1.1 The C compilation process
 
 ### Core idea
@@ -254,3 +268,61 @@ language meaning
 - [ ] Explain a relocation in an object file.
 - [ ] Compare static/dynamic linking and `.symtab`/`.dynsym`.
 - [ ] Trace launch from execution syscall to `main`.
+
+## Extended chapter synthesis
+
+### Key ideas
+
+1. Each build stage consumes one representation and produces another with different information resolved.
+2. Relocations preserve address relationships that cannot yet be finalized.
+3. Execution ultimately follows addresses; humans and linkers benefit from symbolic names.
+4. Disassembly is an interpretation of bytes, not unique recovery of original source.
+5. Static linking and runtime loading solve different placement/resolution problems.
+
+### Key definitions
+
+- **Translation unit:** preprocessed source consumed by one compilation.
+- **Object file:** relocatable machine code/data plus metadata.
+- **Relocation:** typed adjustment applied when placement/symbol value becomes known.
+- **Entry point:** first virtual control-transfer address specified by the image.
+- **Stripped binary:** image with selected nonessential symbol/debug metadata removed.
+
+### Key processes
+
+```text
+preprocess → compile → assemble → link
+validate image → map segments → load dependencies → relocate/initialize
+ → transfer to entry → runtime startup → main
+```
+
+### Important examples
+
+- Constant folding changes an expression into `mov eax,11`.
+- An unresolved object call becomes final through relocation.
+- Stripping removes analyst-friendly names but retains required executable relationships.
+
+### Common confusions
+
+| Confusion | Correct distinction |
+|---|---|
+| declaration vs implementation | header describes calling contract; library object supplies code |
+| object vs executable | object is relocatable; executable has image layout/entry |
+| link vs load | linker constructs file relationships; loader constructs runtime state |
+| entry vs `main` | entry starts runtime; `main` is called later |
+| disassembly vs decompilation | instructions versus higher-level reconstruction |
+
+### What you should be able to explain
+
+- [ ] Why every build stage exists.
+- [ ] Why symbols and relocations are related but different.
+- [ ] Why optimization breaks simple source/instruction mapping.
+- [ ] Why stripping hinders analysis without preventing execution.
+
+### What you should be able to solve
+
+- [ ] Identify which build stage produced an artifact or error.
+- [ ] Interpret a simple relocation and linked call.
+- [ ] Compare `-O0` and `-O2` without inventing source.
+- [ ] Trace the loader/runtime route to `main`.
+
+Full 48-question set with worked solutions: [[Workbooks/Chapter 01 - Practice and Complete Solutions]].

@@ -145,3 +145,13 @@ Buffer events per thread and write in batches. Logging every instruction to a lo
 - [ ] Explain trap, trampoline, and code-cache approaches.
 - [ ] Design a thread-correct profiler.
 - [ ] Detect and critically evaluate write-to-execute transitions.
+
+## Extended chapter synthesis
+
+**Key ideas:** instrumentation policy selects event/granularity; static methods rewrite/trap; DBI translates into a code cache; profiler correctness needs dynamic counts and thread-safe state; unpacking detection correlates writes with later execution.
+
+**Cost model:** overhead ≈ translation + callback frequency × callback cost + synchronization + output.
+
+**You should be able to solve:** granularity selection, per-thread aggregation, runtime address normalization, write-range merging, original-entry transition detection, and dump/reconstruction limitations.
+
+Full 48-question set with worked solutions: [[Workbooks/Chapter 09 - Practice and Complete Solutions]].

@@ -187,3 +187,13 @@ Relocating displaced instructions is hard when they use RIP-relative addressing 
 - [ ] Explain section versus mapped segment for injection.
 - [ ] Calculate and validate a relative redirection.
 - [ ] Design a trampoline that handles RIP-relative displaced code.
+
+## Extended chapter synthesis
+
+**Key process:** hypothesize → patch only a copy → map VA through correct segment → preserve encoding/ABI/layout → re-disassemble → run identical regression matrix → document bytes and hashes.
+
+**Key formulas:** `rel_displacement = target - address_after_instruction`; ELF mapping uses the containing `PT_LOAD`.
+
+**Common confusion:** adding a section is not the same as mapping a segment; changing behavior is not proof the patch preserved all other paths.
+
+Full 48-question set with worked solutions: [[Workbooks/Chapter 07 - Practice and Complete Solutions]].

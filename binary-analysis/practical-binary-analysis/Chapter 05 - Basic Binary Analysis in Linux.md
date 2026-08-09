@@ -189,3 +189,15 @@ Record facts, inference, hypothesis, next test. Do not dump output without inter
 - [ ] Interpret traces as evidence, not automatic explanations.
 - [ ] Recover one dynamically built buffer in GDB.
 - [ ] Produce a reproducible triage report.
+
+## Extended chapter synthesis
+
+**Key idea:** each tool is a lens over identity, structure, bytes, symbols, external behavior, instructions, or live state; confidence comes from correlated lenses.
+
+**Key process:** hash/identify → parse without executing → collect semantic leads → isolate and trace → disassemble focused paths → inspect decisive runtime values → report facts/inferences.
+
+**Common confusion:** an import/string/trace event is evidence of capability/data/one execution, not a complete behavioral explanation.
+
+**You should be able to solve:** unknown-ELF triage, address-space translation, import/string xrefs, syscall-to-call-site correlation, and dynamic-buffer recovery.
+
+Full 48-question set with worked solutions: [[Workbooks/Chapter 05 - Practice and Complete Solutions]].

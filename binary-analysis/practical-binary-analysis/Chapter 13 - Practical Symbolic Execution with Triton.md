@@ -156,3 +156,11 @@ Backward slicing from success retains all four inputs. Solver/algebra yields `x0
 - [ ] Compute a backward slice with input provenance.
 - [ ] Generate and replay a new-branch test case.
 - [ ] Explain exploit generation without confusing model and deployed reality.
+
+## Extended chapter synthesis
+
+**Key process:** synchronize concrete state → symbolize bounded inputs → emulate instructions/build width-correct ASTs → collect/slice path constraints → negate target branch or constrain benign control target → solve → replay exact binary/environment.
+
+**Common confusion:** a satisfying model proves a modeled candidate, while root cause, primitive, mitigations, and reliable impact require separate concrete evidence.
+
+Full 48-question set with worked solutions: [[Workbooks/Chapter 13 - Practice and Complete Solutions]].

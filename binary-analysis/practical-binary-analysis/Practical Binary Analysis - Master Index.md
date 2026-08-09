@@ -76,6 +76,28 @@ reverse engineering, unpacking, vulnerability discovery, exploit generation
 - [[Build Guide - Dynamic Disassembler]] — create a ptrace-based execution tracer, then scale to DBI
 - [[Authorized Binary Exploitation Guide]] — root cause to primitive to mitigation-aware lab exploitation
 
+## Complete practice workbooks
+
+Every chapter has exactly 48 nonrepetitive chapter questions—10 recall, 10 conceptual, 10 application, 5 multi-step, 5 challenging, 5 misconception, and 3 case-based—followed by worked solutions.
+
+1. [[Workbooks/Chapter 01 - Practice and Complete Solutions]]
+2. [[Workbooks/Chapter 02 - Practice and Complete Solutions]]
+3. [[Workbooks/Chapter 03 - Practice and Complete Solutions]]
+4. [[Workbooks/Chapter 04 - Practice and Complete Solutions]]
+5. [[Workbooks/Chapter 05 - Practice and Complete Solutions]]
+6. [[Workbooks/Chapter 06 - Practice and Complete Solutions]]
+7. [[Workbooks/Chapter 07 - Practice and Complete Solutions]]
+8. [[Workbooks/Chapter 08 - Practice and Complete Solutions]]
+9. [[Workbooks/Chapter 09 - Practice and Complete Solutions]]
+10. [[Workbooks/Chapter 10 - Practice and Complete Solutions]]
+11. [[Workbooks/Chapter 11 - Practice and Complete Solutions]]
+12. [[Workbooks/Chapter 12 - Practice and Complete Solutions]]
+13. [[Workbooks/Chapter 13 - Practice and Complete Solutions]]
+
+## Separate companion curriculum
+
+Continue with [[../reversing-secrets-curriculum/Reversing Secrets - Master Curriculum|Reversing: Secrets of Reverse Engineering — Separate Mastery Curriculum]] for Windows/IA-32 reversing, undocumented APIs, file formats, malware/anti-analysis, .NET, and decompilation.
+
 ## Mastery milestones
 
 | Stage | You can do |

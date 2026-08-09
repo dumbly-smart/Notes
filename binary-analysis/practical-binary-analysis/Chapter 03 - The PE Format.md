@@ -19,6 +19,17 @@ MS-DOS header (`MZ`)
                       └── section raw bytes
 ```
 
+### Chapter roadmap
+
+```text
+PE image
+├── MZ header and DOS stub
+├── PE signature and COFF header
+├── optional header: layout, entry, subsystem, protections
+│   └── data directories: imports, exports, relocations, resources, TLS...
+└── section table: RVA layout versus raw file layout
+```
+
 ## 3.1 MS-DOS header and stub
 
 The first two bytes are `MZ`. The key field `e_lfanew` gives the file offset of the PE signature. A DOS stub commonly prints a compatibility message if run under DOS.
@@ -154,3 +165,33 @@ In a Windows analysis VM, tools such as PE-bear, dumpbin, WinDbg, Ghidra, or app
 - [ ] Translate a file-backed RVA through a section.
 - [ ] Identify imports/exports and explain padding.
 - [ ] Compare PE and ELF at the conceptual level.
+
+## Extended chapter synthesis
+
+### Key ideas
+
+- Validated `e_lfanew` connects the DOS-compatible prefix to the modern PE header.
+- PE32 and PE32+ use distinct layouts selected by magic.
+- RVAs are image-relative; actual VAs depend on runtime placement.
+- Raw and virtual section sizes differ because disk alignment and memory zero-fill serve different needs.
+- Data directories locate major loader/application structures using RVA/size pairs.
+
+### Key definitions
+
+DOS stub, COFF header, optional header, RVA, image base, section alignment, file alignment, data directory, import table/IAT, export directory, base relocation.
+
+### Key formulas
+
+```text
+VA = actual_image_base + RVA
+file_offset = PointerToRawData + (RVA - Section.VirtualAddress)
+```
+
+### What you should be able to solve
+
+- [ ] Navigate from `MZ` to the correct optional-header layout.
+- [ ] Translate a file-backed RVA and identify virtual-only bytes.
+- [ ] Explain how imports become callable runtime addresses.
+- [ ] Compare PE IAT and ELF linking concepts without equating formats.
+
+Full 48-question set with worked solutions: [[Workbooks/Chapter 03 - Practice and Complete Solutions]].

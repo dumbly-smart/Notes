@@ -138,3 +138,13 @@ Seed `1000`. The conditional discovers `1010` and `1005`; the call records `1100
 - [ ] Implement worklist recursive traversal and block splitting.
 - [ ] Preserve unresolved targets and confidence labels.
 - [ ] Explain/implement bounded gadget discovery on a toy binary.
+
+## Extended chapter synthesis
+
+**Key process:** validated image ranges → typed decoder wrapper → explicit linear/recursive policy → block/edge model → unresolved targets → annotations/output → hostile tests.
+
+**Common confusion:** Capstone decodes instructions; it does not load binaries, distinguish code/data, recover functions, or make a CFG automatically.
+
+**You should be able to solve:** block splitting, indirect-edge representation, overlapping streams, jump-table constraints, and backward gadget-candidate validation.
+
+Full 48-question set with worked solutions: [[Workbooks/Chapter 08 - Practice and Complete Solutions]].

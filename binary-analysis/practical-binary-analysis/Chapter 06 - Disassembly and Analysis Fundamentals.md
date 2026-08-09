@@ -225,3 +225,13 @@ The same bit pattern `0xffffffff` is `-1` signed and a very large unsigned integ
 - [ ] Explain over- versus under-approximation.
 - [ ] Solve a small reaching-definitions problem.
 - [ ] Critique decompiler output using instructions and runtime evidence.
+
+## Extended chapter synthesis
+
+**Key ideas:** decoding, boundary discovery, CFG recovery, function recovery, and data-flow reasoning are separate approximating layers. Static analysis seeks coverage; dynamic analysis supplies concrete truth for exercised states.
+
+**Key formulas:** `G=(V,E)` for CFG; `IN[B]=⋃OUT[pred]`; `OUT[B]=GEN[B]∪(IN[B]-KILL[B])` for reaching definitions.
+
+**You should be able to solve:** ambiguous boundaries, block splitting, indirect-edge uncertainty, reaching definitions/liveness, signedness, compiler-optimization distortions, and decompiler verification.
+
+Full 48-question set with worked solutions: [[Workbooks/Chapter 06 - Practice and Complete Solutions]].

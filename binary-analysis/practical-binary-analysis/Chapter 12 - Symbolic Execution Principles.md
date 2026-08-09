@@ -135,3 +135,11 @@ Ten independent symbolic `if` statements can create up to `2^10 = 1024` paths; 3
 - [ ] Distinguish sat/unsat/unknown and reachability/validity.
 - [ ] Use fixed-width bitvectors and correct signedness.
 - [ ] Bound a path-search problem and replay every model.
+
+## Extended chapter synthesis
+
+**Key ideas:** symbolic state denotes sets of concrete states; branches create constraints; satisfiability is model-relative; fixed-width bitvectors preserve machine wrap/signedness; path explosion is the central scaling problem.
+
+**Key processes:** reachability=`sat(path∧goal)`; validity=`unsat(¬formula)`; coverage expansion preserves prefix then negates one branch; every model becomes a concrete replay test.
+
+Full 48-question set with worked solutions: [[Workbooks/Chapter 12 - Practice and Complete Solutions]].

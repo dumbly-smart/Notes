@@ -132,3 +132,11 @@ Failing to process `close` falsely tags the public read.
 - [ ] Maintain thread and descriptor state correctly.
 - [ ] Check control/data sinks with provenance.
 - [ ] State explicit-flow and coverage limitations in every report.
+
+## Extended chapter synthesis
+
+**Key process:** capture syscall arguments at entry → use actual result at exit → assign provenance → maintain per-thread/fd state → inspect exec/control/network sinks → report concrete event and policy limitations.
+
+**Common failures:** tainting requested bytes, stale fd colors, one global syscall context, ignoring scatter/gather and implicit flows.
+
+Full 48-question set with worked solutions: [[Workbooks/Chapter 11 - Practice and Complete Solutions]].

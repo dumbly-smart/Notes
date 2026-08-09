@@ -17,6 +17,17 @@ ELF header
 sections are grouped into segments; the mapping is not one-to-one
 ```
 
+### Chapter roadmap
+
+```text
+ELF
+├── executable header: identity and table locations
+├── section headers: semantic/linker organization
+│   └── code, data, symbols, strings, relocations, dynamic metadata
+└── program headers: runtime mappings
+    └── file bytes, zero-fill memory, permissions, alignment
+```
+
 After this chapter you should be able to validate an ELF, locate its tables, translate an address to a file offset through a load segment, explain dynamic linking metadata, and distrust malformed metadata safely.
 
 ## 2.1 Executable header
@@ -253,3 +264,35 @@ Tasks:
 - [ ] Translate valid addresses and explain zero-fill exceptions.
 - [ ] Compare sections and segments without conflating them.
 - [ ] Identify malformed-metadata trust boundaries.
+
+## Extended chapter synthesis
+
+### Key ideas
+
+- ELF is interpreted differently by producers, linkers, loaders, and analysts.
+- Every offset, count, size, index, and string reference is a trust boundary.
+- Sections describe semantic contents; segments prescribe runtime mapping.
+- Dynamic linking coordinates symbols, strings, relocations, loader tags, stubs, and address slots.
+- File-backed bytes and zero-filled memory have different valid address ranges.
+
+### Key definitions
+
+`e_entry`, section header, program header, `PT_LOAD`, relocation, PLT, GOT, lazy binding, VMA, file offset, string table, alignment congruence.
+
+### Key formulas
+
+```text
+file_offset = p_offset + (VA - p_vaddr)
+valid file-backed VA: p_vaddr ≤ VA < p_vaddr + p_filesz
+p_vaddr mod p_align = p_offset mod p_align
+```
+
+### What you should be able to solve
+
+- [ ] Validate a header/table without overflow.
+- [ ] Recover a name through the correct string table.
+- [ ] Translate a file-backed VA and reject zero-fill-only addresses.
+- [ ] Explain lazy and eager resolution flows.
+- [ ] Determine what a runnable stripped ELF still needs.
+
+Full 48-question set with worked solutions: [[Workbooks/Chapter 02 - Practice and Complete Solutions]].

@@ -20,6 +20,17 @@ normalized Binary
 disassembler / CFG / scanner / instrumentation tools
 ```
 
+### Chapter roadmap
+
+```text
+Analysis loader
+├── libbfd abstraction and trust boundary
+├── Binary / Section / Symbol model
+├── open and identify
+├── load properties, symbols, and sections
+└── validate with friendly and hostile fixtures
+```
+
 ## 4.1 What libbfd provides
 
 The Binary File Descriptor library is part of GNU binutils. It abstracts many object formats behind one API. This reduces format-specific parsing but introduces API complexity, global initialization concerns, and dependency/version coupling.
@@ -231,3 +242,33 @@ The address belongs to `.text` at section offset `0x2f0`. Address `0x401600` bel
 - [ ] Load properties, symbols, and sections with normal absence handling.
 - [ ] Cross-check friendly outputs and reject malformed cases.
 - [ ] Provide lookup helpers with explicit half-open range semantics.
+
+## Extended chapter synthesis
+
+### Key ideas
+
+- Normalize format details once so downstream analyses use a stable model.
+- Ownership, integer width, and failure-state invariants are first-class parser requirements.
+- No static symbols is a valid stripped-binary state.
+- libbfd reduces format work but does not eliminate untrusted-input risk.
+- Independent-tool comparison and hostile mutation test different failure modes.
+
+### Key definitions
+
+analysis loader, canonical symbol table, VMA, owned storage, RAII, transactional construction, half-open range, normalization.
+
+### Key process
+
+```text
+open → verify object → properties → symbols if present → sections/content
+ → validate normalized invariants → publish complete result
+```
+
+### What you should be able to solve
+
+- [ ] Design width-safe `Binary/Section/Symbol` objects.
+- [ ] Prevent dangling library-owned names and bytes.
+- [ ] Handle stripped and zero-fill cases.
+- [ ] Create malformed fixtures for every range calculation.
+
+Full 48-question set with worked solutions: [[Workbooks/Chapter 04 - Practice and Complete Solutions]].
