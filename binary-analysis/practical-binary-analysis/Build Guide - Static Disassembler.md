@@ -4,6 +4,8 @@ tags: [binary-analysis, disassembler, capstone, cpp, build-guide]
 
 # Build Guide — Your Own Static Disassembler
 
+> [!implementation] Compiled complete source and observed output: [[Complete Source - Static and Dynamic Disassemblers]] and [[Code/minidis.c]].
+
 ## Goal and finished product
 
 Build an authorized-analysis command-line tool that:

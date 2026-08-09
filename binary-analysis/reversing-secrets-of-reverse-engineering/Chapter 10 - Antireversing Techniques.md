@@ -1,5 +1,7 @@
 # Chapter 10 — Antireversing Techniques
 
+> [!workthroughs] Complete tool-backed labs: [[Walkthroughs - Chapter 10 - Fifteen Complete Analyses]]
+
 > [!source]
 > **From the book:** symbolic stripping, encryption, debugger detection, checksum checks, disassembler confusion, and control/data obfuscation.
 > **Added explanation:** normalization recipes, invariants, modern caveats, and safe toy examples.

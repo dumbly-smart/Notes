@@ -72,6 +72,7 @@ reverse engineering, unpacking, vulnerability discovery, exploit generation
 
 ## Practical build and vulnerability tracks
 
+- [[Complete Source - Static and Dynamic Disassemblers]] — complete compiled C source plus observed static and dynamic output
 - [[Build Guide - Static Disassembler]] — create an ELF-aware recursive disassembler and CFG builder
 - [[Build Guide - Dynamic Disassembler]] — create a ptrace-based execution tracer, then scale to DBI
 - [[Authorized Binary Exploitation Guide]] — root cause to primitive to mitigation-aware lab exploitation

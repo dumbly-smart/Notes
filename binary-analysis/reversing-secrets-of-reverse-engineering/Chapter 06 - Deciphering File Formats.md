@@ -1,5 +1,7 @@
 # Chapter 6 — Deciphering File Formats
 
+> [!workthroughs] Complete tool-backed labs: [[Walkthroughs - Chapter 06 - Fifteen Complete Analyses]]
+
 > [!source]
 > **From the book:** the Cryptex `.crx` case study, including password verification, directory reconstruction, and extraction.
 > **Added explanation:** the experiment matrix, schemas, validation checklist, and exercises.

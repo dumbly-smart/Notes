@@ -1,5 +1,7 @@
 # Chapter 5 — Beyond the Documentation
 
+> [!workthroughs] Complete tool-backed labs: [[Walkthroughs - Chapter 05 - Fifteen Complete Analyses]]
+
 > [!source]
 > **From the book:** the NTDLL generic-table case study and its reconstruction process.
 > **Added explanation:** explicit hypotheses, invariants, pseudocode, validation tactics, and exercises are labeled as such.

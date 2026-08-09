@@ -5,6 +5,8 @@ chapter: 1
 
 # Chapter 1 — Foundations
 
+> [!workthroughs] Complete tool-backed labs: [[Walkthroughs - Chapter 01 - Fifteen Complete Analyses]]
+
 ## Chapter overview
 
 The opening chapter defines software reverse engineering, explains why people reverse software, introduces the low-level knowledge and tool families required, separates system-level from code-level work, and surveys legal questions. It exists to establish that reversing is a disciplined discovery process whose legitimacy depends on purpose, authorization, and law—not a synonym for piracy.

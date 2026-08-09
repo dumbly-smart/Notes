@@ -1,5 +1,7 @@
 # Chapter 7 — Auditing Program Binaries
 
+> [!workthroughs] Complete tool-backed labs: [[Walkthroughs - Chapter 07 - Fifteen Complete Analyses]]
+
 > [!source]
 > **From the book:** vulnerability classes, mitigations available at publication time, and the historical IIS Indexing Service case study.
 > **Added explanation:** modernized reasoning, proof-oriented audit workflow, toy examples, safe lab procedure, and defensive remediation. Historical details are studied to understand root causes—not to target systems.

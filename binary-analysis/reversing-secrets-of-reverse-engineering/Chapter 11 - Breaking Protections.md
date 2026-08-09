@@ -1,5 +1,7 @@
 # Chapter 11 — Breaking Protections
 
+> [!workthroughs] Complete tool-backed labs: [[Walkthroughs - Chapter 11 - Fifteen Complete Analyses]]
+
 > [!scope]
 > Study protection bypass only on software you own, purpose-built crackmes, or explicitly authorized targets. The chapter’s historical “Defender” program is a teaching target. The goal here is to understand validation architecture and antireversing interactions, not facilitate software piracy.
 

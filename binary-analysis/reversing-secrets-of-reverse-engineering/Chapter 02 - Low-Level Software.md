@@ -5,6 +5,8 @@ chapter: 2
 
 # Chapter 2 — Low-Level Software
 
+> [!workthroughs] Complete tool-backed labs: [[Walkthroughs - Chapter 02 - Fifteen Complete Analyses]]
+
 ## Chapter overview
 
 This chapter builds the translation bridge a reverser uses constantly: high-level program structure, variables, structures, lists, and control flow become registers, stacks, heaps, data sections, instructions, flags, and calls. It then explains compiler architecture, virtual-machine bytecode/JIT execution, and processor pipelines.

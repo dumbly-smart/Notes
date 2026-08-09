@@ -5,6 +5,8 @@ chapter: 4
 
 # Chapter 4 — Reversing Tools
 
+> [!workthroughs] Complete tool-backed labs: [[Walkthroughs - Chapter 04 - Fifteen Complete Analyses]]
+
 ## Chapter overview
 
 The book surveys offline/dead-listing and live analysis, disassemblers (notably historical IDA Pro), ILDasm, user/kernel debuggers, decompilers, system monitors, patchers/hex editors, and PE dumpers. The product list is historical; the chapter’s lasting value is understanding which evidence each class produces.

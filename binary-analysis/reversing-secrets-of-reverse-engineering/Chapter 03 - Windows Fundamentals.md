@@ -5,6 +5,8 @@ chapter: 3
 
 # Chapter 3 — Windows Fundamentals
 
+> [!workthroughs] Complete tool-backed labs: [[Walkthroughs - Chapter 03 - Fifteen Complete Analyses]]
+
 ## Chapter overview
 
 This chapter gives the operating-system model needed to interpret Windows binaries: architecture, virtual memory/paging, process address spaces, section objects/VADs, handles/objects, processes/threads/synchronization, Win32 and Native APIs, system calls, PE loading, I/O, and structured exceptions.

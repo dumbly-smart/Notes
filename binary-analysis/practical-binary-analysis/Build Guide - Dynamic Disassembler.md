@@ -4,6 +4,8 @@ tags: [binary-analysis, dynamic-disassembly, ptrace, dbi, build-guide]
 
 # Build Guide — Your Own Dynamic Disassembler
 
+> [!implementation] Compiled complete source and observed output: [[Complete Source - Static and Dynamic Disassemblers]] and [[Code/minitrace.c]].
+
 ## Goal
 
 Build a Linux x86-64 authorized-lab tracer that records actually executed instruction addresses/bytes, module-relative offsets, branch transitions, and code changes. Begin with `ptrace` single stepping for correctness, then evolve toward breakpoints or DBI for performance.

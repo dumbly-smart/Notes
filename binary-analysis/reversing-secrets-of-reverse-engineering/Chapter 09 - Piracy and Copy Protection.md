@@ -1,5 +1,7 @@
 # Chapter 9 — Piracy and Copy Protection
 
+> [!workthroughs] Complete tool-backed labs: [[Walkthroughs - Chapter 09 - Fifteen Complete Analyses]]
+
 > [!source]
 > This chapter follows the book’s conceptual survey. Added material frames protection as threat modeling and defensive architecture. Use protection analysis only on software you own or are authorized to assess.
 

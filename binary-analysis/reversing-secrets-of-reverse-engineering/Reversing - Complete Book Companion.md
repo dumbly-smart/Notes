@@ -59,6 +59,24 @@ Appendices
 13. [[Chapter 13 - Decompilation]]
 14. [[Appendices - Code Structures, Arithmetic, and Program Data]]
 
+## 195 complete tool-backed walkthroughs
+
+Each volume contains 15 separately numbered walkthroughs and 20 questions with complete solutions. The labs include full source, actual builds, assembly/IL, Ghidra evidence where the format is supported, and GDB/pwndbg observations where native execution is observable.
+
+1. [[Walkthroughs - Chapter 01 - Fifteen Complete Analyses]]
+2. [[Walkthroughs - Chapter 02 - Fifteen Complete Analyses]]
+3. [[Walkthroughs - Chapter 03 - Fifteen Complete Analyses]]
+4. [[Walkthroughs - Chapter 04 - Fifteen Complete Analyses]]
+5. [[Walkthroughs - Chapter 05 - Fifteen Complete Analyses]]
+6. [[Walkthroughs - Chapter 06 - Fifteen Complete Analyses]]
+7. [[Walkthroughs - Chapter 07 - Fifteen Complete Analyses]]
+8. [[Walkthroughs - Chapter 08 - Fifteen Complete Analyses]]
+9. [[Walkthroughs - Chapter 09 - Fifteen Complete Analyses]]
+10. [[Walkthroughs - Chapter 10 - Fifteen Complete Analyses]]
+11. [[Walkthroughs - Chapter 11 - Fifteen Complete Analyses]]
+12. [[Walkthroughs - Chapter 12 - Fifteen Complete Analyses]]
+13. [[Walkthroughs - Chapter 13 - Fifteen Complete Analyses]]
+
 ## Practice and mastery
 
 - [[Mentor Code Labs I - Foundations Through Tools]]
@@ -72,6 +90,7 @@ Appendices
 
 ## Connected implementation guides
 
+- [[../practical-binary-analysis/Complete Source - Static and Dynamic Disassemblers]]
 - [[../practical-binary-analysis/Build Guide - Static Disassembler]]
 - [[../practical-binary-analysis/Build Guide - Dynamic Disassembler]]
 - [[../practical-binary-analysis/Authorized Binary Exploitation Guide]]

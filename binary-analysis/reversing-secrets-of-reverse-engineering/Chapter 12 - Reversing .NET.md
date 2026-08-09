@@ -1,5 +1,7 @@
 # Chapter 12 — Reversing .NET
 
+> [!workthroughs] Complete tool-backed labs: [[Walkthroughs - Chapter 12 - Fifteen Complete Analyses]]
+
 
 ## Integrated Hands-On Code
 

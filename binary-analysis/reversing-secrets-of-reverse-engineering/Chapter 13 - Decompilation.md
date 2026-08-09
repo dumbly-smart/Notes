@@ -1,5 +1,9 @@
 # Chapter 13 — Decompilation
 
+> [!workthroughs] Complete tool-backed labs: [[Walkthroughs - Chapter 13 - Fifteen Complete Analyses]]
+
+> [!implementation] Runnable tools: [[../practical-binary-analysis/Complete Source - Static and Dynamic Disassemblers]].
+
 
 ## Integrated Hands-On Code
 
