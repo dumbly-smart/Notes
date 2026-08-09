@@ -247,3 +247,18 @@ Disagreement is an investigation, not automatic proof that the other tool is rig
 - [ ] Stripped/PIE binaries work.
 - [ ] DOT renders and JSON round-trips.
 - [ ] Every parser range uses overflow-safe validation.
+
+## Ghidra and GDB/pwndbg Integration
+
+Use [[../reversing-secrets-of-reverse-engineering/Ghidra and GDB-pwndbg - Complete Integrated Field Manual]] throughout the build.
+
+1. Import every fixture into Ghidra and export entry points, function starts, basic blocks, direct edges, imports, and unresolved indirect sites as a comparison oracle.
+2. Never make your implementation “match Ghidra” blindly; classify disagreements as loader, decoder, code-discovery, function-boundary, or CFG-policy differences.
+3. Record all addresses as module-relative RVAs in both outputs.
+4. Load the fixture in pwndbg, use `vmmap` to recover runtime base, and break at disputed RVAs.
+5. Execute opposite-path inputs and collect actual instruction/edge sequences.
+6. Mark runtime-observed indirect targets in a separate evidence layer; do not pretend dynamic coverage is complete.
+7. Add each resolved disagreement as a regression fixture with expected JSON and a note explaining why.
+8. For malformed files, compare rejection boundaries without importing/executing them outside the isolated harness.
+
+A milestone passes only when your output, Ghidra’s analysis, and runtime evidence either agree or have a documented policy-based reason to differ.

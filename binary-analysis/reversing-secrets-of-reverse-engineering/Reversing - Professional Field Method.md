@@ -2,7 +2,7 @@
 tags: [reverse-engineering, methodology, field-guide]
 ---
 
-# Secrets of Reversing — The Field Method
+# Reversing — Professional Field Method
 
 ## The real “secret”
 
@@ -153,3 +153,7 @@ A completed reversing result contains:
 ## Experiments and reproduction
 ## Confidence, competing hypotheses, and unknowns
 ```
+
+
+> [!integration]
+> Perform these exercises with [[Ghidra and GDB-pwndbg - Complete Integrated Field Manual]] and the paired mentor-code volumes. A lab is complete only when static predictions agree with dynamic evidence.

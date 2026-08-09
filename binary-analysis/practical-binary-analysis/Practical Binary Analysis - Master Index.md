@@ -96,7 +96,7 @@ Every chapter has exactly 48 nonrepetitive chapter questions—10 recall, 10 con
 
 ## Separate companion curriculum
 
-Continue with [[../reversing-secrets-curriculum/Reversing Secrets - Master Curriculum|Reversing: Secrets of Reverse Engineering — Separate Mastery Curriculum]] for Windows/IA-32 reversing, undocumented APIs, file formats, malware/anti-analysis, .NET, and decompilation.
+Continue with [[../reversing-secrets-of-reverse-engineering/Reversing - Complete Book Companion|Reversing: Secrets of Reverse Engineering — Complete Book Companion]] for chapter-by-chapter Windows/IA-32 reversing, paired C/assembly laboratories, undocumented APIs, formats, vulnerability auditing, malware/anti-analysis, Ghidra with GDB/pwndbg, .NET, and decompilation.
 
 ## Mastery milestones
 

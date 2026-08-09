@@ -2,7 +2,7 @@
 tags: [reverse-engineering, labs, assessment, curriculum]
 ---
 
-# Professional Reverser — 100-Lab and Assessment Roadmap
+# Reversing — 100 Lab Mastery Roadmap
 
 ## Rules
 
@@ -80,3 +80,7 @@ Every lab uses software you built, an authorized challenge, or a deliberately sa
 | clarity and peer reproducibility | 5 |
 
 Passing is 80 with no zero in scope, reproducibility, or uncertainty. “Best” is not a one-time score: redo capstones on new architectures, compilers, operating systems, and optimization/obfuscation families.
+
+
+> [!integration]
+> Perform these exercises with [[Ghidra and GDB-pwndbg - Complete Integrated Field Manual]] and the paired mentor-code volumes. A lab is complete only when static predictions agree with dynamic evidence.

@@ -184,3 +184,18 @@ Build `-O0`, `-O2`, PIE, and non-PIE. Verify:
 - [ ] Code-byte changes create new versions.
 - [ ] Resource/time/event limits terminate hostile loops safely.
 - [ ] DBI backend produces the same normalized schema.
+
+## GDB/pwndbg and Ghidra Integration
+
+Use [[../reversing-secrets-of-reverse-engineering/Ghidra and GDB-pwndbg - Complete Integrated Field Manual]] as the reference debugger workflow.
+
+1. Manually trace each toy fixture in GDB/pwndbg before implementing the tracer.
+2. Log `PC`, raw bytes, decoded instruction, module identity, RVA, thread, event, and code-version hash.
+3. Compare single-step sequences with `x/i`, `disassemble /r`, `context`, and `vmmap`.
+4. Use conditional breakpoints/watchpoints to validate memory-write and self-modifying-code events.
+5. Import the same fixture into Ghidra; overlay observed blocks/edges on the static CFG.
+6. Preserve three states: statically predicted, dynamically observed, and unresolved.
+7. Test PIE across repeated runs by verifying stable RVAs despite different runtime VAs.
+8. Cross-check indirect calls with pwndbg `xinfo` and return confirmed module/RVA/type annotations to Ghidra.
+9. Compare thread/fork/signal behavior against a manual GDB transcript.
+10. Treat debugger-induced timing, software-breakpoint bytes, and coverage gaps as explicit limitations.
