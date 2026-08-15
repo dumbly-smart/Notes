@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "binary-analysis/05 - x86-64 Assembly for Binary Analysis.md",
+                "file": "Hacking/binary-analysis/05 - x86-64 Assembly for Binary Analysis.md",
                 "mode": "source",
                 "source": false
               },
@@ -112,7 +112,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "binary-analysis/05 - x86-64 Assembly for Binary Analysis.md",
+            "file": "Hacking/binary-analysis/05 - x86-64 Assembly for Binary Analysis.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "binary-analysis/01 - Learning Blueprint.md",
+            "file": "Hacking/binary-analysis/01 - Learning Blueprint.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           },
@@ -145,7 +145,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "binary-analysis/01 - Learning Blueprint.md",
+            "file": "Hacking/binary-analysis/01 - Learning Blueprint.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -172,34 +172,34 @@
   },
   "active": "0ff80ac0704ef7d6",
   "lastOpenFiles": [
-    "binary-analysis/06 - Static Disassembly Strategies.md",
-    "binary-analysis/00 - Binary Analysis Hub.md",
-    "binary-analysis/02 - Source Code to Running Program.md",
-    "binary-analysis/01 - Learning Blueprint.md",
-    "/binary-analysis/00 - Binary Analysis Hub.md",
-    "/binary-analysis/01 - Learning Blueprint.md",
-    "/binary-analysis/crash-course",
+    "Hacking/binary-analysis/06 - Static Disassembly Strategies.md",
+    "Hacking/binary-analysis/00 - Binary Analysis Hub.md",
+    "Hacking/binary-analysis/02 - Source Code to Running Program.md",
+    "Hacking/binary-analysis/01 - Learning Blueprint.md",
+    "/Hacking/binary-analysis/00 - Binary Analysis Hub.md",
+    "/Hacking/binary-analysis/01 - Learning Blueprint.md",
+    "/Hacking/binary-analysis/crash-course",
     "/binary-analysis",
-    "binary-analysis/crash-course/08 - Core Theory Handbook.md",
-    "/binary-analysis/crash-course/08 - Core Theory Handbook.md",
-    "binary-analysis/crash-course/07 - Mock CTF and Final Assessment.md",
-    "binary-analysis/crash-course/06 - Advanced Pwn and Automation.md",
-    "binary-analysis/crash-course/05 - Format Strings and Heap Foundations.md",
-    "binary-analysis/crash-course/04 - ROP, Leaks, and Mitigations.md",
-    "binary-analysis/crash-course/03 - Stack Overflows and Shellcode.md",
-    "binary-analysis/crash-course/02 - Reverse Engineering Workflow.md",
-    "binary-analysis/crash-course/01 - Foundations and Assembly.md",
-    "binary-analysis/crash-course/00 - One-Week RE and Pwn Crash Course.md",
-    "/binary-analysis/crash-course/07 - Mock CTF and Final Assessment.md",
-    "/binary-analysis/crash-course/06 - Advanced Pwn and Automation.md",
-    "/binary-analysis/crash-course/05 - Format Strings and Heap Foundations.md",
-    "/binary-analysis/crash-course/04 - ROP, Leaks, and Mitigations.md",
-    "/binary-analysis/crash-course/03 - Stack Overflows and Shellcode.md",
-    "/binary-analysis/crash-course/02 - Reverse Engineering Workflow.md",
-    "/binary-analysis/crash-course/01 - Foundations and Assembly.md",
-    "/binary-analysis/crash-course/00 - One-Week RE and Pwn Crash Course.md",
-    "binary-analysis/crash-course",
-    "binary-analysis/03 - Executable Formats - ELF and PE.md",
-    "binary-analysis/05 - x86-64 Assembly for Binary Analysis.md"
+    "Hacking/binary-analysis/crash-course/08 - Core Theory Handbook.md",
+    "/Hacking/binary-analysis/crash-course/08 - Core Theory Handbook.md",
+    "Hacking/binary-analysis/crash-course/07 - Mock CTF and Final Assessment.md",
+    "Hacking/binary-analysis/crash-course/06 - Advanced Pwn and Automation.md",
+    "Hacking/binary-analysis/crash-course/05 - Format Strings and Heap Foundations.md",
+    "Hacking/binary-analysis/crash-course/04 - ROP, Leaks, and Mitigations.md",
+    "Hacking/binary-analysis/crash-course/03 - Stack Overflows and Shellcode.md",
+    "Hacking/binary-analysis/crash-course/02 - Reverse Engineering Workflow.md",
+    "Hacking/binary-analysis/crash-course/01 - Foundations and Assembly.md",
+    "Hacking/binary-analysis/crash-course/00 - One-Week RE and Pwn Crash Course.md",
+    "/Hacking/binary-analysis/crash-course/07 - Mock CTF and Final Assessment.md",
+    "/Hacking/binary-analysis/crash-course/06 - Advanced Pwn and Automation.md",
+    "/Hacking/binary-analysis/crash-course/05 - Format Strings and Heap Foundations.md",
+    "/Hacking/binary-analysis/crash-course/04 - ROP, Leaks, and Mitigations.md",
+    "/Hacking/binary-analysis/crash-course/03 - Stack Overflows and Shellcode.md",
+    "/Hacking/binary-analysis/crash-course/02 - Reverse Engineering Workflow.md",
+    "/Hacking/binary-analysis/crash-course/01 - Foundations and Assembly.md",
+    "/Hacking/binary-analysis/crash-course/00 - One-Week RE and Pwn Crash Course.md",
+    "Hacking/binary-analysis/crash-course",
+    "Hacking/binary-analysis/03 - Executable Formats - ELF and PE.md",
+    "Hacking/binary-analysis/05 - x86-64 Assembly for Binary Analysis.md"
   ]
 }
