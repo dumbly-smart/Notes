@@ -1,1 +1,12 @@
-{}
+{
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "00 Inbox",
+  "attachmentFolderPath": "99 System/Attachments",
+  "showLineNumber": true,
+  "spellcheck": true,
+  "readableLineLength": true,
+  "strictLineBreaks": false,
+  "useTab": false,
+  "showInlineTitle": true
+}

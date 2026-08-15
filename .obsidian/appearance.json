@@ -1,1 +1,14 @@
-{}
+{
+  "accentColor": "#7c3aed",
+  "theme": "obsidian",
+  "cssTheme": "Minimal",
+  "enabledCssSnippets": [
+    "second-brain"
+  ],
+  "baseFontSize": 16,
+  "interfaceFontFamily": "Inter",
+  "textFontFamily": "Inter",
+  "monospaceFontFamily": "JetBrains Mono",
+  "translucency": false,
+  "nativeMenus": true
+}

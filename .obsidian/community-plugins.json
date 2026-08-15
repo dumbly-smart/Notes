@@ -2,5 +2,15 @@
   "obsidian-excalidraw-plugin",
   "obsidian-git",
   "automatic-table-of-contents",
-  "emoji-shortcodes"
+  "emoji-shortcodes",
+  "table-editor-obsidian",
+  "dataview",
+  "obsidian-tasks-plugin",
+  "templater-obsidian",
+  "quickadd",
+  "omnisearch",
+  "waypoint",
+  "calendar",
+  "homepage",
+  "obsidian-style-settings"
 ]

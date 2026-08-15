@@ -1,0 +1,17 @@
+{
+  "version": 4,
+  "homepages": {
+    "Main Homepage": {
+      "homepage": "Home.md",
+      "openOnStartup": true,
+      "openMode": "Replace last note",
+      "view": "Reading view",
+      "revertView": true,
+      "pin": false,
+      "value": "Home",
+      "kind": "File",
+      "commands": []
+    }
+  },
+  "separateMobile": false
+}
