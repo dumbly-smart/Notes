@@ -8,7 +8,7 @@ source_path: "modules/31-unsortedbin_attack/unsorted_explanation/readme.md"
 ---
 
 > [!abstract] Course navigation
-> [[binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[binary-analysis/nightmare-complete/31-unsortedbin_attack/31-unsortedbin_attack - Module Index|Unsortedbin Attack index]]
+> [[Hacking/binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[Hacking/binary-analysis/nightmare-complete/31-unsortedbin_attack/31-unsortedbin_attack - Module Index|Unsortedbin Attack index]]
 >
 > Original course file: `modules/31-unsortedbin_attack/unsorted_explanation/readme.md`
 # Unsorted Bin Explanation

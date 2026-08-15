@@ -8,7 +8,7 @@ source_path: "modules/18-ret2_csu_dl/ropemporium_ret2csu/readme.md"
 ---
 
 > [!abstract] Course navigation
-> [[binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[binary-analysis/nightmare-complete/18-ret2_csu_dl/18-ret2_csu_dl - Module Index|Ret2 Csu Dl index]]
+> [[Hacking/binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[Hacking/binary-analysis/nightmare-complete/18-ret2_csu_dl/18-ret2_csu_dl - Module Index|Ret2 Csu Dl index]]
 >
 > Original course file: `modules/18-ret2_csu_dl/ropemporium_ret2csu/readme.md`
 # ROPEmporium ret2csu

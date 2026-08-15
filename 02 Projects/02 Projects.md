@@ -9,4 +9,7 @@ tags:
 
 Projects have a finish line. Create them from [[99 System/Templates/Project|the project template]], keep the next action visible, and archive them when done.
 
-%% Waypoint %%
+%% Begin Waypoint %%
+
+
+%% End Waypoint %%

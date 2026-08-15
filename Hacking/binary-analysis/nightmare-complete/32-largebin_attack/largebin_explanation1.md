@@ -8,7 +8,7 @@ source_path: "modules/32-largebin_attack/largebin_explanation1/readme.md"
 ---
 
 > [!abstract] Course navigation
-> [[binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[binary-analysis/nightmare-complete/32-largebin_attack/32-largebin_attack - Module Index|Largebin Attack index]]
+> [[Hacking/binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[Hacking/binary-analysis/nightmare-complete/32-largebin_attack/32-largebin_attack - Module Index|Largebin Attack index]]
 >
 > Original course file: `modules/32-largebin_attack/largebin_explanation1/readme.md`
 # Large Bin Attack Explanation pt 1

@@ -8,7 +8,7 @@ source_path: "modules/20-patching_and_jumping/plaid19_ppp/readme.md"
 ---
 
 > [!abstract] Course navigation
-> [[binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[binary-analysis/nightmare-complete/20-patching_and_jumping/20-patching_and_jumping - Module Index|Patching And Jumping index]]
+> [[Hacking/binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[Hacking/binary-analysis/nightmare-complete/20-patching_and_jumping/20-patching_and_jumping - Module Index|Patching And Jumping index]]
 >
 > Original course file: `modules/20-patching_and_jumping/plaid19_ppp/readme.md`
 # Plaid Party Planning III

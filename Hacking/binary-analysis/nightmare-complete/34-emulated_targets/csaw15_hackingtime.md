@@ -8,7 +8,7 @@ source_path: "modules/34-emulated_targets/csaw15_hackingtime/readme.md"
 ---
 
 > [!abstract] Course navigation
-> [[binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[binary-analysis/nightmare-complete/34-emulated_targets/34-emulated_targets - Module Index|Emulated Targets index]]
+> [[Hacking/binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[Hacking/binary-analysis/nightmare-complete/34-emulated_targets/34-emulated_targets - Module Index|Emulated Targets index]]
 >
 > Original course file: `modules/34-emulated_targets/csaw15_hackingtime/readme.md`
 # CSAW 2015 Hackingtime

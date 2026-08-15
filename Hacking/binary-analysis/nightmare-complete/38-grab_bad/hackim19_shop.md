@@ -8,7 +8,7 @@ source_path: "modules/38-grab_bad/hackim19_shop/readme.md"
 ---
 
 > [!abstract] Course navigation
-> [[binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[binary-analysis/nightmare-complete/38-grab_bad/38-grab_bad - Module Index|Grab Bad index]]
+> [[Hacking/binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[Hacking/binary-analysis/nightmare-complete/38-grab_bad/38-grab_bad - Module Index|Grab Bad index]]
 >
 > Original course file: `modules/38-grab_bad/hackim19_shop/readme.md`
 # hackIM Shop

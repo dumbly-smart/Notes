@@ -6,4 +6,7 @@ tags:
 
 # AI Security
 
-%% Waypoint %%
+%% Begin Waypoint %%
+- [[AI Fundamentals]]
+
+%% End Waypoint %%

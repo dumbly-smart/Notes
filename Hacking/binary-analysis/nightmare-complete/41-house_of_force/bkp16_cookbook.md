@@ -8,7 +8,7 @@ source_path: "modules/41-house_of_force/bkp16_cookbook/readme.md"
 ---
 
 > [!abstract] Course navigation
-> [[binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[binary-analysis/nightmare-complete/41-house_of_force/41-house_of_force - Module Index|House Of Force index]]
+> [[Hacking/binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[Hacking/binary-analysis/nightmare-complete/41-house_of_force/41-house_of_force - Module Index|House Of Force index]]
 >
 > Original course file: `modules/41-house_of_force/bkp16_cookbook/readme.md`
 # Boston Key Party 2016 Cookbook

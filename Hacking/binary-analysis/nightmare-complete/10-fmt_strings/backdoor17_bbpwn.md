@@ -8,7 +8,7 @@ source_path: "modules/10-fmt_strings/backdoor17_bbpwn/readme.md"
 ---
 
 > [!abstract] Course navigation
-> [[binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[binary-analysis/nightmare-complete/10-fmt_strings/10-fmt_strings - Module Index|Format String Strings index]]
+> [[Hacking/binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[Hacking/binary-analysis/nightmare-complete/10-fmt_strings/10-fmt_strings - Module Index|Format String Strings index]]
 >
 > Original course file: `modules/10-fmt_strings/backdoor17_bbpwn/readme.md`
 # Backdoorctf 17 bbpwn

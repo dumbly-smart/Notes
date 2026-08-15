@@ -8,7 +8,7 @@ source_path: "modules/24-heap_overflow/protostar_heap1/readme.md"
 ---
 
 > [!abstract] Course navigation
-> [[binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[binary-analysis/nightmare-complete/24-heap_overflow/24-heap_overflow - Module Index|Heap Overflow index]]
+> [[Hacking/binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[Hacking/binary-analysis/nightmare-complete/24-heap_overflow/24-heap_overflow - Module Index|Heap Overflow index]]
 >
 > Original course file: `modules/24-heap_overflow/protostar_heap1/readme.md`
 # exploit_exercises protostar heap 1

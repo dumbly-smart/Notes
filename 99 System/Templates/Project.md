@@ -1,14 +1,14 @@
 ---
 type: project
 status: active
-created: {{date:YYYY-MM-DD}}
+created: {{DATE:YYYY-MM-DD}}
 due:
 area:
 tags:
   - project
 ---
 
-# {{title}}
+# {{VALUE}}
 
 ## Outcome
 
@@ -22,7 +22,7 @@ What does done look like?
 
 ```tasks
 not done
-path includes {{title}}
+path includes {{VALUE}}
 sort by due
 ```
 

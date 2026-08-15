@@ -8,7 +8,7 @@ source_path: "modules/21-dot_net/bikinibonanza/readme.md"
 ---
 
 > [!abstract] Course navigation
-> [[binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[binary-analysis/nightmare-complete/21-dot_net/21-dot_net - Module Index|Dot .NET index]]
+> [[Hacking/binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[Hacking/binary-analysis/nightmare-complete/21-dot_net/21-dot_net - Module Index|Dot .NET index]]
 >
 > Original course file: `modules/21-dot_net/bikinibonanza/readme.md`
 # Csaw 2013 bikinibonanza

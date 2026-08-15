@@ -8,7 +8,7 @@ source_path: "modules/13-angr/defcamp_r100/readme.md"
 ---
 
 > [!abstract] Course navigation
-> [[binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[binary-analysis/nightmare-complete/13-angr/13-angr - Module Index|Angr index]]
+> [[Hacking/binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[Hacking/binary-analysis/nightmare-complete/13-angr/13-angr - Module Index|Angr index]]
 >
 > Original course file: `modules/13-angr/defcamp_r100/readme.md`
 # defcamp 2015 quals r100

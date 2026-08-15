@@ -8,7 +8,7 @@ source_path: "modules/6.1-mitigation_nx/readme.md"
 ---
 
 > [!abstract] Course navigation
-> [[binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[binary-analysis/nightmare-complete/6.1-mitigation_nx/6.1-mitigation_nx - Module Index|Mitigation Nx index]]
+> [[Hacking/binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[Hacking/binary-analysis/nightmare-complete/6.1-mitigation_nx/6.1-mitigation_nx - Module Index|Mitigation Nx index]]
 >
 > Original course file: `modules/6.1-mitigation_nx/readme.md`
 # nx

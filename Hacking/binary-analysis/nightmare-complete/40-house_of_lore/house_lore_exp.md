@@ -8,7 +8,7 @@ source_path: "modules/40-house_of_lore/house_lore_exp/readme.md"
 ---
 
 > [!abstract] Course navigation
-> [[binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[binary-analysis/nightmare-complete/40-house_of_lore/40-house_of_lore - Module Index|House Of Lore index]]
+> [[Hacking/binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[Hacking/binary-analysis/nightmare-complete/40-house_of_lore/40-house_of_lore - Module Index|House Of Lore index]]
 >
 > Original course file: `modules/40-house_of_lore/house_lore_exp/readme.md`
 # House of Lore

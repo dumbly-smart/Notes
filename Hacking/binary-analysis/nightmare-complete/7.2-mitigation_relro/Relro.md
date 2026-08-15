@@ -8,7 +8,7 @@ source_path: "modules/7.2-mitigation_relro/readme.md"
 ---
 
 > [!abstract] Course navigation
-> [[binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[binary-analysis/nightmare-complete/7.2-mitigation_relro/7.2-mitigation_relro - Module Index|Mitigation Relro index]]
+> [[Hacking/binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[Hacking/binary-analysis/nightmare-complete/7.2-mitigation_relro/7.2-mitigation_relro - Module Index|Mitigation Relro index]]
 >
 > Original course file: `modules/7.2-mitigation_relro/readme.md`
 # Relro

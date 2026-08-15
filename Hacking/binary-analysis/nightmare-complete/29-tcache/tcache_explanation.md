@@ -8,7 +8,7 @@ source_path: "modules/29-tcache/tcache_explanation/readme.md"
 ---
 
 > [!abstract] Course navigation
-> [[binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[binary-analysis/nightmare-complete/29-tcache/29-tcache - Module Index|tcache index]]
+> [[Hacking/binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[Hacking/binary-analysis/nightmare-complete/29-tcache/29-tcache - Module Index|tcache index]]
 >
 > Original course file: `modules/29-tcache/tcache_explanation/readme.md`
 # tcache attack explanation

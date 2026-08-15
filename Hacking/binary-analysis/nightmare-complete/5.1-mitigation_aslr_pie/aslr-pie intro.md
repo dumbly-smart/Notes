@@ -8,7 +8,7 @@ source_path: "modules/5.1-mitigation_aslr_pie/readme.md"
 ---
 
 > [!abstract] Course navigation
-> [[binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[binary-analysis/nightmare-complete/5.1-mitigation_aslr_pie/5.1-mitigation_aslr_pie - Module Index|Mitigation Aslr Pie index]]
+> [[Hacking/binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[Hacking/binary-analysis/nightmare-complete/5.1-mitigation_aslr_pie/5.1-mitigation_aslr_pie - Module Index|Mitigation Aslr Pie index]]
 >
 > Original course file: `modules/5.1-mitigation_aslr_pie/readme.md`
 # aslr/pie intro

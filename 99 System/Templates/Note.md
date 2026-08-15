@@ -1,11 +1,11 @@
 ---
 type: note
 status: seed
-created: {{date:YYYY-MM-DD}}
+created: {{DATE:YYYY-MM-DD}}
 tags: []
 ---
 
-# {{title}}
+# {{VALUE}}
 
 > [!summary] In one sentence
 > Why does this matter?

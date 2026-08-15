@@ -8,7 +8,7 @@ source_path: "modules/27-edit_free_chunk/uaf_explanation/readme.md"
 ---
 
 > [!abstract] Course navigation
-> [[binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[binary-analysis/nightmare-complete/27-edit_free_chunk/27-edit_free_chunk - Module Index|Edit Free Chunk index]]
+> [[Hacking/binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[Hacking/binary-analysis/nightmare-complete/27-edit_free_chunk/27-edit_free_chunk - Module Index|Edit Free Chunk index]]
 >
 > Original course file: `modules/27-edit_free_chunk/uaf_explanation/readme.md`
 # edit free chunk uaf explanation

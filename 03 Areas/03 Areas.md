@@ -9,4 +9,7 @@ tags:
 
 Areas are ongoing responsibilities or skills without a finish line.
 
-%% Waypoint %%
+%% Begin Waypoint %%
+
+
+%% End Waypoint %%

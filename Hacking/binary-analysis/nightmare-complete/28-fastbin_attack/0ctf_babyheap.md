@@ -8,7 +8,7 @@ source_path: "modules/28-fastbin_attack/0ctf_babyheap/readme.md"
 ---
 
 > [!abstract] Course navigation
-> [[binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[binary-analysis/nightmare-complete/28-fastbin_attack/28-fastbin_attack - Module Index|Fastbin Attack index]]
+> [[Hacking/binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[Hacking/binary-analysis/nightmare-complete/28-fastbin_attack/28-fastbin_attack - Module Index|Fastbin Attack index]]
 >
 > Original course file: `modules/28-fastbin_attack/0ctf_babyheap/readme.md`
 # 0ctf babyheap

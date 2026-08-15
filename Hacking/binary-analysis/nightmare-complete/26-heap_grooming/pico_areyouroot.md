@@ -8,7 +8,7 @@ source_path: "modules/26-heap_grooming/pico_areyouroot/readme.md"
 ---
 
 > [!abstract] Course navigation
-> [[binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[binary-analysis/nightmare-complete/26-heap_grooming/26-heap_grooming - Module Index|Heap Grooming index]]
+> [[Hacking/binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[Hacking/binary-analysis/nightmare-complete/26-heap_grooming/26-heap_grooming - Module Index|Heap Grooming index]]
 >
 > Original course file: `modules/26-heap_grooming/pico_areyouroot/readme.md`
 # pico ctf are you root

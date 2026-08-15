@@ -8,7 +8,7 @@ source_path: "modules/30-unlink/zctf16_note2/readme.md"
 ---
 
 > [!abstract] Course navigation
-> [[binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[binary-analysis/nightmare-complete/30-unlink/30-unlink - Module Index|Unlink index]]
+> [[Hacking/binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[Hacking/binary-analysis/nightmare-complete/30-unlink/30-unlink - Module Index|Unlink index]]
 >
 > Original course file: `modules/30-unlink/zctf16_note2/readme.md`
 # zctf 2016 note2

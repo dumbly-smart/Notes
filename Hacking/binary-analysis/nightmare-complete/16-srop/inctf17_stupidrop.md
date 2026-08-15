@@ -8,7 +8,7 @@ source_path: "modules/16-srop/inctf17_stupidrop/readme.md"
 ---
 
 > [!abstract] Course navigation
-> [[binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[binary-analysis/nightmare-complete/16-srop/16-srop - Module Index|SROP index]]
+> [[Hacking/binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[Hacking/binary-analysis/nightmare-complete/16-srop/16-srop - Module Index|SROP index]]
 >
 > Original course file: `modules/16-srop/inctf17_stupidrop/readme.md`
 # Inctf 2017 stupidrop

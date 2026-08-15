@@ -1,12 +1,12 @@
 ---
 type: area
 status: active
-created: {{date:YYYY-MM-DD}}
+created: {{DATE:YYYY-MM-DD}}
 tags:
   - area
 ---
 
-# {{title}}
+# {{VALUE}}
 
 ## Standard
 
@@ -25,4 +25,3 @@ SORT file.mtime DESC
 ```
 
 ## Notes
-

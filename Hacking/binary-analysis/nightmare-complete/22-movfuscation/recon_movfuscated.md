@@ -8,7 +8,7 @@ source_path: "modules/22-movfuscation/recon_movfuscated/readme.md"
 ---
 
 > [!abstract] Course navigation
-> [[binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[binary-analysis/nightmare-complete/22-movfuscation/22-movfuscation - Module Index|Movfuscation index]]
+> [[Hacking/binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[Hacking/binary-analysis/nightmare-complete/22-movfuscation/22-movfuscation - Module Index|Movfuscation index]]
 >
 > Original course file: `modules/22-movfuscation/recon_movfuscated/readme.md`
 # REcon movfuscation

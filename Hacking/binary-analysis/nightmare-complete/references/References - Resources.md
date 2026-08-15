@@ -8,7 +8,7 @@ source_path: "modules/references/readme.md"
 ---
 
 > [!abstract] Course navigation
-> [[binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[binary-analysis/nightmare-complete/references/references - Module Index|References index]]
+> [[Hacking/binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[Hacking/binary-analysis/nightmare-complete/references/references - Module Index|References index]]
 >
 > Original course file: `modules/references/readme.md`
 # References / Resources

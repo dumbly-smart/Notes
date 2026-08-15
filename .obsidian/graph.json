@@ -1,0 +1,51 @@
+{
+  "collapse-filter": false,
+  "search": "-path:\"99 System/Templates\" -path:\".trash\"",
+  "showTags": true,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": false,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:\"Hacking\"",
+      "color": {
+        "a": 1,
+        "rgb": 8268287
+      }
+    },
+    {
+      "query": "path:\"02 Projects\"",
+      "color": {
+        "a": 1,
+        "rgb": 14840369
+      }
+    },
+    {
+      "query": "path:\"03 Areas\"",
+      "color": {
+        "a": 1,
+        "rgb": 3655393
+      }
+    },
+    {
+      "query": "path:\"01 Daily\"",
+      "color": {
+        "a": 1,
+        "rgb": 16753920
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1.2,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": true,
+  "centerStrength": 0.5,
+  "repelStrength": 11,
+  "linkStrength": 1,
+  "linkDistance": 180,
+  "scale": 1,
+  "close": false
+}

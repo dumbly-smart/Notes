@@ -8,7 +8,7 @@ source_path: "modules/17-stack_pivot/xctf16_b0verflow/readme.md"
 ---
 
 > [!abstract] Course navigation
-> [[binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[binary-analysis/nightmare-complete/17-stack_pivot/17-stack_pivot - Module Index|Stack Pivot index]]
+> [[Hacking/binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[Hacking/binary-analysis/nightmare-complete/17-stack_pivot/17-stack_pivot - Module Index|Stack Pivot index]]
 >
 > Original course file: `modules/17-stack_pivot/xctf16_b0verflow/readme.md`
 # xctf16_b0verflow

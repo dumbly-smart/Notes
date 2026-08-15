@@ -8,7 +8,7 @@ source_path: "modules/36-obfuscated_reversing/bkp16_unholy/Readme.md"
 ---
 
 > [!abstract] Course navigation
-> [[binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[binary-analysis/nightmare-complete/36-obfuscated_reversing/36-obfuscated_reversing - Module Index|Obfuscated Reversing index]]
+> [[Hacking/binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[Hacking/binary-analysis/nightmare-complete/36-obfuscated_reversing/36-obfuscated_reversing - Module Index|Obfuscated Reversing index]]
 >
 > Original course file: `modules/36-obfuscated_reversing/bkp16_unholy/Readme.md`
 # Bkp 2016 unholy

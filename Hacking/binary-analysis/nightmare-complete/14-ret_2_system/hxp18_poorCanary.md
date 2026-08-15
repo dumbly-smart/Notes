@@ -8,7 +8,7 @@ source_path: "modules/14-ret_2_system/hxp18_poorCanary/readme.md"
 ---
 
 > [!abstract] Course navigation
-> [[binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[binary-analysis/nightmare-complete/14-ret_2_system/14-ret_2_system - Module Index|Ret 2 System index]]
+> [[Hacking/binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[Hacking/binary-analysis/nightmare-complete/14-ret_2_system/14-ret_2_system - Module Index|Ret 2 System index]]
 >
 > Original course file: `modules/14-ret_2_system/hxp18_poorCanary/readme.md`
 # Hxp 2018 poor canary

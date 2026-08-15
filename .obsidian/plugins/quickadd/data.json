@@ -111,6 +111,36 @@
         "mode": "default",
         "focus": true
       }
+    },
+    {
+      "id": "14f063e8-21dc-46a2-9db3-newarea00001",
+      "name": "New Area",
+      "type": "Template",
+      "command": true,
+      "templatePath": "99 System/Templates/Area.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "03 Areas/{{VALUE}}"
+      },
+      "folder": {
+        "enabled": false,
+        "folders": [],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "copyLinkToClipboard": false,
+      "openFile": true,
+      "fileExistsBehavior": {
+        "kind": "prompt"
+      },
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "mode": "default",
+        "focus": true
+      }
     }
   ],
   "inputPrompt": "single-line",
@@ -128,7 +158,7 @@
   "onePageInputEnabled": false,
   "disableOnlineFeatures": true,
   "enableUriCallbacks": false,
-  "enableRibbonIcon": false,
+  "enableRibbonIcon": true,
   "showCaptureNotification": true,
   "showInputCancellationNotification": false,
   "enableTemplatePropertyTypes": false,

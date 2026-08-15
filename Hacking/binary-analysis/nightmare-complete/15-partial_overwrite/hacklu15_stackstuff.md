@@ -8,7 +8,7 @@ source_path: "modules/15-partial_overwrite/hacklu15_stackstuff/readme.md"
 ---
 
 > [!abstract] Course navigation
-> [[binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[binary-analysis/nightmare-complete/15-partial_overwrite/15-partial_overwrite - Module Index|Partial Overwrite index]]
+> [[Hacking/binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[Hacking/binary-analysis/nightmare-complete/15-partial_overwrite/15-partial_overwrite - Module Index|Partial Overwrite index]]
 >
 > Original course file: `modules/15-partial_overwrite/hacklu15_stackstuff/readme.md`
 # hacklu 2015 stackstuff

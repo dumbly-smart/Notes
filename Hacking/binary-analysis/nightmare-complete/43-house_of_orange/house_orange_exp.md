@@ -8,7 +8,7 @@ source_path: "modules/43-house_of_orange/house_orange_exp/Readme.md"
 ---
 
 > [!abstract] Course navigation
-> [[binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[binary-analysis/nightmare-complete/43-house_of_orange/43-house_of_orange - Module Index|House Of Orange index]]
+> [[Hacking/binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[Hacking/binary-analysis/nightmare-complete/43-house_of_orange/43-house_of_orange - Module Index|House Of Orange index]]
 >
 > Original course file: `modules/43-house_of_orange/house_orange_exp/Readme.md`
 ## House of Orange Explanation

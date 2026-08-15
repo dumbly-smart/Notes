@@ -1,0 +1,9 @@
+# Each device owns its open tabs, panes, and transient workspace state.
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/workspaces.json
+.obsidian/cache/
+
+# OS noise
+.DS_Store
+Thumbs.db

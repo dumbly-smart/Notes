@@ -8,7 +8,7 @@ source_path: "modules/09-bad_seed/sunshinectf17_prepared/readme.md"
 ---
 
 > [!abstract] Course navigation
-> [[binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[binary-analysis/nightmare-complete/09-bad_seed/09-bad_seed - Module Index|Bad Seed index]]
+> [[Hacking/binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[Hacking/binary-analysis/nightmare-complete/09-bad_seed/09-bad_seed - Module Index|Bad Seed index]]
 >
 > Original course file: `modules/09-bad_seed/sunshinectf17_prepared/readme.md`
 # Sunshine CTF 2017 Prepared

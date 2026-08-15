@@ -8,7 +8,7 @@ source_path: "modules/11-index/sunshinectf2017_alternatesolution/readme.md"
 ---
 
 > [!abstract] Course navigation
-> [[binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[binary-analysis/nightmare-complete/11-index/11-index - Module Index|Index index]]
+> [[Hacking/binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[Hacking/binary-analysis/nightmare-complete/11-index/11-index - Module Index|Index index]]
 >
 > Original course file: `modules/11-index/sunshinectf2017_alternatesolution/readme.md`
 # Sunshine CTF 2017 Alternate Solution

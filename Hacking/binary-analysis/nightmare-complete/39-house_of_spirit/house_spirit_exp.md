@@ -8,7 +8,7 @@ source_path: "modules/39-house_of_spirit/house_spirit_exp/readme.md"
 ---
 
 > [!abstract] Course navigation
-> [[binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[binary-analysis/nightmare-complete/39-house_of_spirit/39-house_of_spirit - Module Index|House Of Spirit index]]
+> [[Hacking/binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[Hacking/binary-analysis/nightmare-complete/39-house_of_spirit/39-house_of_spirit - Module Index|House Of Spirit index]]
 >
 > Original course file: `modules/39-house_of_spirit/house_spirit_exp/readme.md`
 # House of Spirit Explanation

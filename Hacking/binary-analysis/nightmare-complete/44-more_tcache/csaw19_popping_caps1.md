@@ -8,7 +8,7 @@ source_path: "modules/44-more_tcache/csaw19_popping_caps1/readme.md"
 ---
 
 > [!abstract] Course navigation
-> [[binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[binary-analysis/nightmare-complete/44-more_tcache/44-more_tcache - Module Index|More tcache index]]
+> [[Hacking/binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[Hacking/binary-analysis/nightmare-complete/44-more_tcache/44-more_tcache - Module Index|More tcache index]]
 >
 > Original course file: `modules/44-more_tcache/csaw19_popping_caps1/readme.md`
 # Popping Caps 1

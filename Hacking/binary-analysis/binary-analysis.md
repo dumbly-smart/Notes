@@ -8,4 +8,10 @@ tags:
 
 # Binary analysis
 
-%% Waypoint %%
+%% Begin Waypoint %%
+- **[[crash-course]]**
+- **[[nightmare-complete]]**
+- **[[practical-binary-analysis]]**
+- **[[reversing-secrets-of-reverse-engineering]]**
+
+%% End Waypoint %%

@@ -8,7 +8,7 @@ source_path: "modules/42-house_of_einherjar/house_einherjar_exp/readme.md"
 ---
 
 > [!abstract] Course navigation
-> [[binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[binary-analysis/nightmare-complete/42-house_of_einherjar/42-house_of_einherjar - Module Index|House Of Einherjar index]]
+> [[Hacking/binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[Hacking/binary-analysis/nightmare-complete/42-house_of_einherjar/42-house_of_einherjar - Module Index|House Of Einherjar index]]
 >
 > Original course file: `modules/42-house_of_einherjar/house_einherjar_exp/readme.md`
 # House of Einherjar Explanation

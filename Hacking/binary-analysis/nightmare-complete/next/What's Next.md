@@ -8,7 +8,7 @@ source_path: "modules/next/readme.md"
 ---
 
 > [!abstract] Course navigation
-> [[binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[binary-analysis/nightmare-complete/next/next - Module Index|Next index]]
+> [[Hacking/binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[Hacking/binary-analysis/nightmare-complete/next/next - Module Index|Next index]]
 >
 > Original course file: `modules/next/readme.md`
 # What's Next?

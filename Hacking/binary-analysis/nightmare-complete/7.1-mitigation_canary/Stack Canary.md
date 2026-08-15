@@ -8,7 +8,7 @@ source_path: "modules/7.1-mitigation_canary/readme.md"
 ---
 
 > [!abstract] Course navigation
-> [[binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[binary-analysis/nightmare-complete/7.1-mitigation_canary/7.1-mitigation_canary - Module Index|Mitigation Canary index]]
+> [[Hacking/binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[Hacking/binary-analysis/nightmare-complete/7.1-mitigation_canary/7.1-mitigation_canary - Module Index|Mitigation Canary index]]
 >
 > Original course file: `modules/7.1-mitigation_canary/readme.md`
 # Stack Canary

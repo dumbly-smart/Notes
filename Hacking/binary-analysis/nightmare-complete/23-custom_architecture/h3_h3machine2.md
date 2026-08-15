@@ -8,7 +8,7 @@ source_path: "modules/23-custom_architecture/h3_h3machine2/readme.md"
 ---
 
 > [!abstract] Course navigation
-> [[binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[binary-analysis/nightmare-complete/23-custom_architecture/23-custom_architecture - Module Index|Custom Architecture index]]
+> [[Hacking/binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[Hacking/binary-analysis/nightmare-complete/23-custom_architecture/23-custom_architecture - Module Index|Custom Architecture index]]
 >
 > Original course file: `modules/23-custom_architecture/h3_h3machine2/readme.md`
 # h3 h3machine2

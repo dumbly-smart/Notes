@@ -8,7 +8,7 @@ source_path: "modules/12-z3/hs19_abyte/readme.md"
 ---
 
 > [!abstract] Course navigation
-> [[binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[binary-analysis/nightmare-complete/12-z3/12-z3 - Module Index|Z3 index]]
+> [[Hacking/binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[Hacking/binary-analysis/nightmare-complete/12-z3/12-z3 - Module Index|Z3 index]]
 >
 > Original course file: `modules/12-z3/hs19_abyte/readme.md`
 # hsctf 2019 A-Byte

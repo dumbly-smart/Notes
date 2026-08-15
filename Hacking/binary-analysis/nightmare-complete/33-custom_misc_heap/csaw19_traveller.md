@@ -8,7 +8,7 @@ source_path: "modules/33-custom_misc_heap/csaw19_traveller/readme.md"
 ---
 
 > [!abstract] Course navigation
-> [[binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[binary-analysis/nightmare-complete/33-custom_misc_heap/33-custom_misc_heap - Module Index|Custom Misc Heap index]]
+> [[Hacking/binary-analysis/nightmare-complete/Nightmare Course - Complete Solutions|Nightmare Course hub]] · [[Hacking/binary-analysis/nightmare-complete/33-custom_misc_heap/33-custom_misc_heap - Module Index|Custom Misc Heap index]]
 >
 > Original course file: `modules/33-custom_misc_heap/csaw19_traveller/readme.md`
 # Csaw 2019 traveller
