@@ -14,6 +14,7 @@ The automatically maintained entry point for all security and reverse-engineerin
 %% Begin Waypoint %%
 - **[[AI Security]]**
 - **[[binary-analysis]]**
+- **[[linux-prev-ex]]**
 - **[[Web-exploitation]]**
 - [[Cryptography]]
 - [[Disk analysis]]
