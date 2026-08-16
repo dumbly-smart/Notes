@@ -15,6 +15,7 @@ tags:
 Short field notes for Linux enumeration and privilege escalation.
 
 %% Begin Waypoint %%
+- [[Linux File System Permissions]]
 - [[Linux Shell Basics]]
 
 %% End Waypoint %%
@@ -22,4 +23,3 @@ Short field notes for Linux enumeration and privilege escalation.
 ## Connections
 
 - Parent: [[Hacking]]
-
