@@ -25,13 +25,13 @@ tags:
 ## Quick enumeration
 
 ```bash
-whoami                 # current username
-id                     # UID, GID, and groups
-hostname               # host name
-pwd                    # current directory
-env                    # environment variables
-echo "$SHELL"           # configured shell
-which <command>         # command resolved through $PATH
+whoami                 # Current user
+id                     # User identity
+hostname               # Host name
+pwd                    # Working directory
+env                    # Environment variables
+echo "$SHELL"           # Login shell
+which <command>         # Locate command
 ```
 
 Absolute paths begin at `/`; relative paths begin at the current directory.
@@ -39,39 +39,45 @@ Absolute paths begin at `/`; relative paths begin at the current directory.
 ## Files and resources
 
 ```bash
-ls -alh                # detailed directory listing
-cd <path>              # change directory
-cp <src> <dst>         # copy
-mv <src> <dst>         # move or rename
-rm <path>              # remove carefully
+ls -alh                # List files
+cd <path>              # Change directory
+cp <src> <dst>         # Copy file
+mv <src> <dst>         # Move file
+rm <path>              # Remove file
 
-df -h                  # filesystem space
-du -h <path>           # path size
-fdisk -l               # disks and partitions
-ps aux                 # processes
-ps -axjf               # process hierarchy
-ip a                   # network interfaces
-netstat -ltp           # listening TCP ports and owners
+df -h                  # Filesystem usage
+du -h <path>           # Directory usage
+fdisk -l               # List partitions
+ps aux                 # List processes
+ps -axjf               # Process hierarchy
+ip a                   # Network addresses
+netstat -ltp           # Listening ports
 ```
 
 ## Users and groups
 
-- `/etc/passwd` records account metadata; `/etc/shadow` stores password hashes and is normally root-readable only.
-- `groups <user>` lists memberships.
-- Administrative commands include `useradd`, `passwd`, `userdel`, `groupadd`, and `usermod -aG`.
+```bash
+sudo useradd -m <user>          # Create user
+sudo passwd <user>              # Change password
+sudo userdel -r <user>          # Delete user
+sudo groupadd <group>           # Create group
+sudo usermod -aG <group> <user> # Add membership
+groups <user>                   # List memberships
+cat /etc/passwd                 # Account metadata
+sudo cat /etc/shadow            # Password hashes
+```
 
 ## Packages
 
 ```bash
-apt search <term>
-sudo apt update
-sudo apt install <package>
-sudo apt upgrade
-sudo apt purge <package>
+apt search <term>          # Search packages
+sudo apt update           # Refresh indexes
+sudo apt install <package> # Install package
+sudo apt upgrade          # Upgrade packages
+sudo apt purge <package>   # Remove package
 ```
 
 ## Connections
 
 - Topic map: [[linux-prev-ex]]
 - Parent map: [[Hacking]]
-
