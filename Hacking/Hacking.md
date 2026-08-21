@@ -15,6 +15,8 @@ The automatically maintained entry point for all security and reverse-engineerin
 - **[[AI Security]]**
 - **[[binary-analysis]]**
 - **[[linux-prev-ex]]**
+- **[[windows-prev-ex]]**
+- **[[active-directory-exploitation]]**
 - **[[Web-exploitation]]**
 - [[Cryptography]]
 - [[Disk analysis]]
