@@ -18,6 +18,7 @@ Short field notes for Linux enumeration and privilege escalation.
 - [[Linux File System Permissions]]
 - [[Linux Shell Basics]]
 - [[Linux Privilege-Escalation Methodology]]
+- [[Privilege Escalation Field Guide]]
 - [[Linux SUID and SGID]]
 - [[Linux Sudo Misconfigurations]]
 - [[Linux Scheduled Tasks and Wildcards]]

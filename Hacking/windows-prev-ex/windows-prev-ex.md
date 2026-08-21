@@ -22,6 +22,7 @@ Focused field notes for Windows enumeration, access control, and local privilege
 - [[Windows Scheduled Tasks, Registry, and MSI]]
 - [[Windows UAC and Token Privileges]]
 - [[Windows Privilege-Escalation Methodology]]
+- [[Privilege Escalation Field Guide]]
 %% End Waypoint %%
 
 ## Connections
